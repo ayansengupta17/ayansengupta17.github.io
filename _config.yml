@@ -97,7 +97,7 @@ author:
 defaults:
   # _posts
   - scope:
-      path: #"https://ayansengupta17.github.io/"
+      path: ""
       type: posts
     values:
       layout: single
