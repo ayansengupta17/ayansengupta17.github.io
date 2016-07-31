@@ -11,7 +11,7 @@ title                    : " { UnWrap } "
 title_separator          : "-"
 name                     : " Ayan Sengupta"
 description              : "A personal blog"
-url                      : #"https://unwrap.github.io/"
+url                      : "https://ayansengupta17.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -97,7 +97,7 @@ author:
 defaults:
   # _posts
   - scope:
-      path: "https://ayansengupta17.github.io/"
+      path: #"https://ayansengupta17.github.io/"
       type: posts
     values:
       layout: single
