@@ -1,6 +1,13 @@
 ---
 published: false
 ---
+---
+layout: post
+title: First Post.
+---
+
+
+
 ## First Post 
 
 Hello readers. It is a pleasure that you are viewing my blog. [Jekyll](http://jekyllrb.com/) and [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/) helped me set up this blog.
