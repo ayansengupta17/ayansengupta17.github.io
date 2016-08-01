@@ -1,6 +1,6 @@
 
 ---
-permalink: _pages/daily_youtube/
+permalink: /daily_youtube/
 title: "Test"
 date: 2016-08-01
 modified: 2016-08-01
