@@ -1,16 +1,16 @@
 # main links links
 main:
   - title: "Writing"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/navigation/
+    url: writing/
 
   - title: "Work"
-    url: /
+    url: work/
     
   - title: "IIT Bombay"
-    url: /
+    url: iitbombay/
   
   - title: "Daily Youtube"
-    url: /
+    url: daily_youtube/
   
   - title: "About"
-    url: /
+    url: about/
