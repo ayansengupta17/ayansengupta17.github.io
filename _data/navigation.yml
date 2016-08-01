@@ -1,16 +1,16 @@
 # main links links
 main:
   - title: "Writing"
-    url: writing/
+    url: /writing/
 
   - title: "Work"
-    url: work/
+    url: /work/
     
   - title: "IIT Bombay"
-    url: iitbombay/
+    url: /iitbombay/
   
   - title: "Daily Youtube"
-    url: daily_youtube/
+    url: /daily_youtube/
   
   - title: "About"
-    url: about/
+    url: /about/
