@@ -1,13 +1,14 @@
 ---
 permalink: /about/
-title: "About Ayan Sengupta"
-date: 2016-08-01
-modified: 2016-08-01
-excerpt: ""
+title: About Me
+date: {}
+modified: {}
 image:
-  feature: 
-  teaser: 
+  feature: null
+  teaser: null
 ads: false
 share: false
 author: false
+published: true
 ---
+I am just a PC gaming enthusiastic, developer, and an Electrical engineer. More coming...
