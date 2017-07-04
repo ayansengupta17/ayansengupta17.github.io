@@ -2,7 +2,6 @@
 published: true
 layout: post
 title: "Welcome to my blog".
-date: 2017-07-04
 ---
 
 
