@@ -77,7 +77,7 @@ author:
   flickr           :
   facebook         : "ayansengupta17"
   foursquare       :
-  github           :
+  github           : "ayansengupta17"
   google_plus      : "ayansengupta17"
   keybase          :
   instagram        : "ayansengupta17"
@@ -112,9 +112,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true    
-      
-      
+      author_profile: true
+
+
 # Reading Files
 include:
   - .htaccess
