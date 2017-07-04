@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Welcome to my blog"
 author_profile: true
 ---
