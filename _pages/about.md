@@ -1,5 +1,5 @@
 ---
-title: "About"
 permalink: /about/
-author_profile: true
+title: "About"
+excerpt: "Let us check out $whoami"
 ---
