@@ -4,13 +4,10 @@ main:
     url: /
 
   - title: "Work"
-    url: /
-    
-  - title: "IIT Bombay"
-    url: /
-  
+    url: /work/
+
   - title: "Daily Youtube"
-    url: /
-  
+    url: /utube/
+
   - title: "About"
-    url: /
+    url: /about/
