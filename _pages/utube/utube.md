@@ -1,5 +1,5 @@
 ---
-permalink: /utube/
+path: /utube/
 type: posts
 title: "Test"
 
