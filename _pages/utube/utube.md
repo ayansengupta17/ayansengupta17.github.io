@@ -1,6 +1,5 @@
 ---
 path: /utube/
-type: posts
 title: "Test"
 
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /utube/
+path: /utube/
 title: "Welcome to my blog"
 author_profile: true
 ---
