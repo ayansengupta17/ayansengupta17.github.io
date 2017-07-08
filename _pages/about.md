@@ -1,5 +1,7 @@
 ---
 permalink: /about/
-title: "About"
+title: "$whoami"
 excerpt: "Let us check out $whoami"
 ---
+
+
