@@ -5,7 +5,7 @@ excerpt: "About me"
 ---
 
 Currently, I am pursuing my Masters in Control and computing from Indian Institute of Technology, Bombay. I completed my B.Tech from Indian Institute of Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal Engineering and Science University, Shibpur).
-My current project is "Fast Computation of exact solution of partial differential equations". Mainly the project has two parts, a theoretical aspect, and an implementation part.  Till now, my contribution has been in the implementation part. For other projects check out my [GitHub]("https://github.com/ayansengupta17/")
+My current project is "Fast Computation of exact solution of partial differential equations". Mainly the project has two parts, a theoretical aspect, and an implementation part.  Till now, my contribution has been in the latter part. I worked on some other projects, requiring skills from arduino, python to swift programming language. For other projects check out my [GitHub]("https://github.com/ayansengupta17/")
 
 Moreover, I love to learn new skills. In less than 12 months, I’ve learned the following:
 1. **How to code in Python.** All the codes I write for my project are mainly based on Python. I keep on using it, and always get something new to learn.
