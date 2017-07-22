@@ -4,7 +4,7 @@ title: "$whoami"
 excerpt: "About me"
 ---
 
-Currently, I am pursuing my Masters in Control and computing from Indian Institute of Technology, Bombay. I finished B.Tech from Indian Institute of Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal Engineering and Science University, Shibpur).
+Currently, I am pursuing my Masters in Control and computing from Indian Institute of Technology, Bombay. I completed my B.Tech from Indian Institute of Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal Engineering and Science University, Shibpur).
 My current project is "Fast Computation of exact solution of partial differential equations". Mainly the project has two parts, a theoretical aspect, and an implementation part.  Till now, my contribution has been in the implementation part. For other projects check out my [GitHub]("https://github.com/ayansengupta17/")
 
 Moreover, I love to learn new skills. In less than 12 months, I’ve learned the following:
