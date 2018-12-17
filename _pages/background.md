@@ -12,22 +12,20 @@ My major interests are in the domain of data science, machine learning, deep lea
 
 Experience
 ------
-* **Indian Institute of Technology, Bombay**
+**Indian Institute of Technology, Bombay**
 Final Year Student (May 2018 – Present)
-    * Boundary Control of Infinite Dimensional Systems
-      Guide: Prof. Debasattam Pal, Department of Electrical Engineering, IIT Bombay
-        * Involves boundary control of systems represented by partial differential equation(s).
-        * Involves algebraic analysis of motion planning of systems governed by partial differential equations.
-        * Proposed algorithmic way of solving motion planning problems for infinite dimensional systems.
+* Boundary Control of Infinite Dimensional Systems
+    * Involves boundary control of systems represented by partial differential equation(s).
+    * Involves algebraic analysis of motion planning of systems governed by partial differential equations.
+    * Proposed algorithmic way of solving motion planning problems for infinite dimensional systems.
 
-
+**Indian Institute of Technology, Bombay**
 Research Assistant (Aug 2016 – Present)
 
 * Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)
-  Guide: Prof. Debasattam Pal, Department of Electrical Engineering, IIT Bombay
     * Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm.
     * Implemented the algorithms for Characteristic Cones given by equation ideal and equation module.
-    * All the implementations were done in Python using open source SageMath libraries
+    * All the implementations were done in *Python* using open source *SageMath* libraries.
 
 
 
