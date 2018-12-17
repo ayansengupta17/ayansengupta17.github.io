@@ -13,15 +13,15 @@ My major interests are in the domain of machine learning, deep learning, reinfor
 Current Projects
 ------
 Final Year Student in **Indian Institute of Technology, Bombay**
- (May 2018 – Present)
+(May 2018 – Present)
+
 * Boundary Control of Infinite Dimensional Systems
     * Involves boundary control of systems represented by partial differential equation(s).
     * Involves algebraic analysis of motion planning of systems governed by partial differential equations.
     * Proposed algorithmic way of solving motion planning problems for infinite dimensional systems.
 
 Research Assistant at **Indian Institute of Technology, Bombay** [Project Page](https://www.ee.iitb.ac.in/~debasattam/ASOP.html).
-
- (Aug 2016 – Present)
+(Aug 2016 – Present)
 
 * Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)
     * Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm.
