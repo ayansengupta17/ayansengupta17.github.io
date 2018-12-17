@@ -12,17 +12,17 @@ theme                    : jekyll-theme-minimal
 
 
 # Site Settings
-locale                   : "en"
-title                    : " { UnWrap } "
+locale                   : "en-US"
+title                    : "Ayan Sengupta"
 title_separator          : "-"
-name                     : " Ayan Sengupta"
-description              : "A personal blog of an Electrical Engineer Ayan Sengupta"
+name                     : &name "Ayan Sengupta"
+description              : &description "A personal blog of an Electrical Engineer Ayan Sengupta"
 url                      : "https://ayansengupta17.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 160
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
@@ -73,7 +73,7 @@ google_ad_slot           :
 author:
   name             : "Ayan Sengupta"
   avatar           : "iam.jpg"
-  bio              : "An Electrical Engineer, currently pursuing masters in Control & computing"
+  bio              : "An Electrical Engineer, currently pursuing masters in Control & computing, IIT Bombay"
   location         : "India"
   email            : "ayansengupta17@gmail.com"
   uri              :

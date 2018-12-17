@@ -1,13 +1,15 @@
 # main links links
 main:
-  - title: "Writing"
-    url: /
+  - title: "Projects"
+    url: /projects/
 
-  - title: "Work"
-    url: /work/
+  - title: "Hobbies"
+    url: /hobbies/
 
-  - title: "Metube"
-    url: /utube/
 
-  - title: "About"
-    url: /about/
+  - title: "Background"
+    url: /background/
+
+
+  - title: "CV"
+    url: /cv/
