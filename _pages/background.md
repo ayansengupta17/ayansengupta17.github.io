@@ -6,33 +6,28 @@ author_profile: true
 ---
 
 Interest
-=======
+------
 My passion is to bring machine learning to a practical level where it is a product that solves problem for people.
 My major interests are in the domain of data science, machine learning, deep learning and reinforcement learning.
 
 Experience
-======
-* Indian Institute of Technology, Bombay
-2 yrs 5 mos
-    * Final Year Student
-     May 2018 – Present
+------
+* **Indian Institute of Technology, Bombay**
+Final Year Student (May 2018 – Present)
     * Boundary Control of Infinite Dimensional Systems
       Guide: Prof. Debasattam Pal, Department of Electrical Engineering, IIT Bombay
         * Involves boundary control of systems represented by partial differential equation(s).
         * Involves algebraic analysis of motion planning of systems governed by partial differential equations.
         * Proposed algorithmic way of solving motion planning problems for infinite dimensional systems.
 
-Edit position Research Assistant reorder_position_x
-TitleResearch Assistant
-Dates EmployedAug 2016 – Present
-Employment Duration2 yrs 5 mos
-LocationMumbai Area, India
-Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)
-Guide: Prof. Debasattam Pal, Department of Electrical Engineering, IIT Bombay
 
-o Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm.
-o Implemented the algorithms for Characteristic Cones given by equation ideal and equation module.
-o All the implementations were done in Python using open source SageMath libraries
+Research Assistant (Aug 2016 – Present)
+
+* Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)
+  Guide: Prof. Debasattam Pal, Department of Electrical Engineering, IIT Bombay
+    * Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm.
+    * Implemented the algorithms for Characteristic Cones given by equation ideal and equation module.
+    * All the implementations were done in Python using open source SageMath libraries
 
 
 
