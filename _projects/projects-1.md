@@ -5,9 +5,6 @@ excerpt: "In this project we tried to generate realistic images from text descri
 collection: projects
 ---
 
-**Text to image generation Using Generative Adversarial Networks (GANs)**
-========================================================================
-
 
 **Objectives:**
 ---------------
