@@ -150,7 +150,7 @@ given the encoder representation
 
 ![alt text](http://ayansengupta17.github.io/images/project-1/images/implementation.png)
 
-**Generator Architecture**
+**A** **Generator Architecture**
 
 1. After noise is appended to the encoded sentence, we use a
     deconvolutional neural network (referred to as convolutional nets
@@ -182,47 +182,47 @@ given the encoder representation
      of 2 is used giving an output of 64x64x3. Sigmoid activation
      is used in this layer. Padding used is ‘SAME’.
 
-**Discriminator Architecture**
+**B** **Discriminator Architecture**
 
-    1.  Map the sentence vector into 4x4x128 tensor using a fully
-         connected layer and reshape the same.
+1. Map the sentence vector into 4x4x128 tensor using a fully
+     connected layer and reshape the same.
 
-    2.  A convolutional layer with filter dimension 3x3 over the
-         input image. Stride length of 2 is used giving an output
-         of 32x32x64. Leaky ReLU activation is used with the slope
-         as 0.3. Padding used is ‘SAME’. Dropout with keep probability
-         0.7 was used.
+2. A convolutional layer with filter dimension 3x3 over the
+     input image. Stride length of 2 is used giving an output
+     of 32x32x64. Leaky ReLU activation is used with the slope
+     as 0.3. Padding used is ‘SAME’. Dropout with keep probability
+     0.7 was used.
 
-    3.  A convolutional layer with filter dimension 3x3 over the
-         input image. Stride length of 2 is used giving an output
-         of 16x16x128. Leaky ReLU activation is used with the slope
-         as 0.3. Padding used is ‘SAME’. Dropout with keep probability
-         0.7 was used.
+3. A convolutional layer with filter dimension 3x3 over the
+     input image. Stride length of 2 is used giving an output
+     of 16x16x128. Leaky ReLU activation is used with the slope
+     as 0.3. Padding used is ‘SAME’. Dropout with keep probability
+     0.7 was used.
 
-    4.  A convolutional layer with filter dimension 3x3 over the
-         input image. Stride length of 2 is used giving an output
-         of 8x8x256. Leaky ReLU activation is used with the slope
-         as 0.3. Padding used is ‘SAME’. Dropout with keep probability
-         0.7 was used.
+4. A convolutional layer with filter dimension 3x3 over the
+     input image. Stride length of 2 is used giving an output
+     of 8x8x256. Leaky ReLU activation is used with the slope
+     as 0.3. Padding used is ‘SAME’. Dropout with keep probability
+     0.7 was used.
 
-    5.  A convolutional layer with filter dimension 3x3 over the
-         input image. Stride length of 2 is used giving an output
-         of 4x4x512. Leaky ReLU activation is used with the slope
-         as 0.3. Padding used is ‘SAME’. Dropout with keep probability
-         0.7 was used.
+5. A convolutional layer with filter dimension 3x3 over the
+     input image. Stride length of 2 is used giving an output
+     of 4x4x512. Leaky ReLU activation is used with the slope
+     as 0.3. Padding used is ‘SAME’. Dropout with keep probability
+     0.7 was used.
 
-    6.  Outputs from 1 and 5 are augmented along channels.
+6. Outputs from 1 and 5 are augmented along channels.
 
-    7.  A convolutional layer with filter dimension 3x3 over the
-         input image. Stride length of 2 is used giving an output
-         of 1x1x1024. Leaky ReLU activation is used with the slope
-         as 0.3. Padding used is ‘SAME’. Dropout with keep probability
-         0.7 was used.
+7. A convolutional layer with filter dimension 3x3 over the
+     input image. Stride length of 2 is used giving an output
+     of 1x1x1024. Leaky ReLU activation is used with the slope
+     as 0.3. Padding used is ‘SAME’. Dropout with keep probability
+     0.7 was used.
 
-    8.  Reshaped to a one dimensional vector and then converted to a
-         single value using a fully connected layer. No activation used
-         in order to use **tf.sigmoid_cross_entropy_with_logits()**
-         to generate a probability implicitly
+8. Reshaped to a one dimensional vector and then converted to a
+     single value using a fully connected layer. No activation used
+     in order to use **tf.sigmoid_cross_entropy_with_logits()**
+     to generate a probability implicitly
 
 **C**.  **Loss Functions**
 
