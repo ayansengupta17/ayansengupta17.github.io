@@ -177,6 +177,21 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  background:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  hobbies:
+    output: true
+    permalink: /:collection/:path/
+  cv:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Outputting
 permalink: /:categories/:title/
