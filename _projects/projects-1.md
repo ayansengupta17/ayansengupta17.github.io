@@ -29,9 +29,9 @@ encoding large chunks of text irrespective of the application domain.
 This approach is novel in the sense of shift from compositional
 semantics based methods, while maintaining the same quality.
 The input to this model, while training, is a tuple of sentences
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/1.gif). The encoder generates a state vector
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/2.gif) corresponding to words
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/3.gif) of the
+![alt text](http://github.com/ayansengupta17/GAN/blob/master/common/tex/1.gif). The encoder generates a state vector
+![alt text](http://github.com/ayansengupta17/GAN/blob/master/common/tex/2.gif) corresponding to words
+![alt text](http://github.com/ayansengupta17/GAN/blob/master/common/tex/3.gif) of the
 sentence ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/4.gif) at time step
 ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/5.gif). One of the two decoders predicts
 the word ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/6.gif) in the next sentence
