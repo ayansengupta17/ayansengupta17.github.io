@@ -1,7 +1,7 @@
 ---
 title: "Text to image generation Using Deep Convolution Generative Adversarial Networks (DCGANs)"
 excerpt: "In this project we tried to generate realistic images from text descriptions. Skip thought vectors were used for
- encoding ofsentences and we trained Deep Convolutional GAN on MSCOCO and CUB datasets.<br/><img src='https://github.com/ayansengupta17/GAN/blob/master/common/images/implementation.png'>"
+ encoding ofsentences and we trained Deep Convolutional GAN on MSCOCO and CUB datasets.<br/><img src='http://ayansengupta17.github.io/images/project-1/images/implementation.png'>"
 collection: projects
 ---
 
@@ -30,22 +30,22 @@ This approach is novel in the sense of shift from compositional
 semantics based methods, while maintaining the same quality.
 The input to this model, while training, is a tuple of sentences
 ![alt text](http://ayansengupta17.github.io/images/project-1/tex/1.gif). The encoder generates a state vector
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/2.gif) corresponding to words
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/3.gif) of the
-sentence ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/4.gif) at time step
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/5.gif). One of the two decoders predicts
-the word ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/6.gif) in the next sentence
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/7.gif) and the other
-decoder predicts the word ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/8.gif)
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/2.gif) corresponding to words
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/3.gif) of the
+sentence ![alt text](http://ayansengupta17.github.io/images/project-1/tex/4.gif) at time step
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/5.gif). One of the two decoders predicts
+the word ![alt text](http://ayansengupta17.github.io/images/project-1/tex/6.gif) in the next sentence
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/7.gif) and the other
+decoder predicts the word ![alt text](http://ayansengupta17.github.io/images/project-1/tex/8.gif)
 in previous sentence
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/9.gif) from the current state vector
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/2.gif). The objective
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/9.gif) from the current state vector
+![alt text](http://ayansengupta17.github.io/images/project-1/tex/2.gif). The objective
 function is sum of log probabilities of forward and backward sentences
 given the encoder representation
 
-   ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/10.gif)
+   ![alt text](http://ayansengupta17.github.io/images/project-1/tex/10.gif)
 
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/skipthought.png)
+![alt text](http://ayansengupta17.github.io/images/project-1/images/skipthought.png)
 
  In simpler terms, maximizing the sum of log probabilities would lead
  to generation of a faithful state vector which encodes information
@@ -53,25 +53,25 @@ given the encoder representation
 
  Another important feature proposed in \[2\] is vocabulary expansion.
  The vocabulary for this RNN based model, represented as
- ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/11.gif), is relatively small as compared to other
- representations like word2vec, represented by ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/12.gif). A
- transformation ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/13.gif) can constructed
- such that ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/14.gif),
- such that ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/15.gif)
+ ![alt text](http://ayansengupta17.github.io/images/project-1/tex/11.gif), is relatively small as compared to other
+ representations like word2vec, represented by ![alt text](http://ayansengupta17.github.io/images/project-1/tex/12.gif). A
+ transformation ![alt text](http://ayansengupta17.github.io/images/project-1/tex/13.gif) can constructed
+ such that ![alt text](http://ayansengupta17.github.io/images/project-1/tex/14.gif),
+ such that ![alt text](http://ayansengupta17.github.io/images/project-1/tex/15.gif)
  by minimizing L2 loss to obtain W.
 
 **B**.  **Generative Adversarial Networks**
 -------------------------------------------
 
- ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gan.png)
+ ![alt text](http://ayansengupta17.github.io/images/project-1/images/gan.png)
 
  Generative Adversarial Networks (GAN) \[2\] consists of a generator
  G responsible for generating examples from noise distribution
- ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/p_g.gif),
- parameterized by ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/theta_g.gif), which are similar to the data
+ ![alt text](http://ayansengupta17.github.io/images/project-1/tex/p_g.gif),
+ parameterized by ![alt text](http://ayansengupta17.github.io/images/project-1/tex/theta_g.gif), which are similar to the data
  distribution and a discriminator D, responsible for distinguishing
- the examples arising from the data distribution ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/p_d.gif), parameterized
- by ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/tex/theta_d.gif), against those generated by G.
+ the examples arising from the data distribution ![alt text](http://ayansengupta17.github.io/images/project-1/tex/p_d.gif), parameterized
+ by ![alt text](http://ayansengupta17.github.io/images/project-1/tex/theta_d.gif), against those generated by G.
 
  The requirements for this framework to generate examples
  indistinguishable from the data distribution are:
@@ -82,7 +82,7 @@ given the encoder representation
 
  This is a minimax game between G and D as:
 
- ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gan_equation.png)
+ ![alt text](http://ayansengupta17.github.io/images/project-1/images/gan_equation.png)
 
  The training of GANs is difficult and success of GANs has been
  demonstrated by using MLP based generators and discriminators. It is
@@ -95,7 +95,7 @@ given the encoder representation
 **C**.  **Generative Adversarial Text to Image Synthesis**
 -----------------------------------------------------------
 
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/model.png)
+![alt text](http://ayansengupta17.github.io/images/project-1/images/model.png)
 
  Caption to image generation has been addressed in \[4\]. The
  underlying idea is to augment the generator and discriminator in a GAN
@@ -148,9 +148,9 @@ given the encoder representation
  versatility of this model due to vocabulary expansion can address any
  scalability issues arising at a later stage.
 
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/implementation.png)
+![alt text](http://ayansengupta17.github.io/images/project-1/images/implementation.png)
 
-**A**.  **Generator Architecture**
+**Generator Architecture**
 
     1.  After noise is appended to the encoded sentence, we use a
         deconvolutional neural network (referred to as convolutional nets
@@ -190,7 +190,7 @@ given the encoder representation
          of 2 is used giving an output of 64x64x3. Sigmoid activation
          is used in this layer. Padding used is ‘SAME’.
 
-**B**.  **Discriminator Architecture**
+**Discriminator Architecture**
 
     1.  Map the sentence vector into 4x4x128 tensor using a fully
          connected layer and reshape the same.
@@ -287,8 +287,8 @@ given the encoder representation
 
 **F**.  **Training Curves**
 
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/dloss.png)
-![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gloss.png)
+![alt text](http://ayansengupta17.github.io/images/project-1/images/dloss.png)
+![alt text](http://ayansengupta17.github.io/images/project-1/images/gloss.png)
 
 **Approaches:**
 ---------------
@@ -361,11 +361,11 @@ to lack of resources and time we could not train the model.
 
 | Sentence        | Generated Image           | Match from Dataset  |
 | ------------- |:-------------:| -----:|
-|This little bird has a yellow green colored body, a small black tipped bill and a black crown.    | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen1.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt1.png) |
-|This bird has a white and brown breast with a sharp pointed bill.|![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen2.png) |![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt2.png) |
-|This bird is bright red colored with black wings and a small beak.    | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen3.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt3.png) |
-|This bird has a blue crown, blue primaries, and blue secondaries.    | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen4.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt4.png) |
-|This is a small black and white bird with prominent crown feathers.    | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen5.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt5.png) |
+|This little bird has a yellow green colored body, a small black tipped bill and a black crown.    | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen1.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt1.png) |
+|This bird has a white and brown breast with a sharp pointed bill.|![alt text](http://ayansengupta17.github.io/images/project-1/images/gen2.png) |![alt text](http://ayansengupta17.github.io/images/project-1/images/gt2.png) |
+|This bird is bright red colored with black wings and a small beak.    | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen3.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt3.png) |
+|This bird has a blue crown, blue primaries, and blue secondaries.    | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen4.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt4.png) |
+|This is a small black and white bird with prominent crown feathers.    | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen5.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt5.png) |
 
 
 > It can be seen from above pictures how the reparameterization trick
@@ -377,15 +377,15 @@ to lack of resources and time we could not train the model.
 
 | Sentence        | Generated Image           | Match from Dataset  |
 | ------------- |:-------------:| -----:|
-|This person is surfing in the ocean during high tide in the afternoon.    | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen6.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt6.png) |
-|A person in white uniform is swinging a baseball bat.|![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen7.png) |![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt7.png) |
+|This person is surfing in the ocean during high tide in the afternoon.    | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen6.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt6.png) |
+|A person in white uniform is swinging a baseball bat.|![alt text](http://ayansengupta17.github.io/images/project-1/images/gen7.png) |![alt text](http://ayansengupta17.github.io/images/project-1/images/gt7.png) |
 
 **3**.  **DCGAN with Batch Normalization trained on MS-COCO**
 
   | Sentence        | Generated Image           | Match from Dataset  |
 | ------------- |:-------------:| -----:|
-|Two children with black jackets and white jeans are skating on ice.   | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen8.png) | ![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt8.png) |
-|A person is surfing in the ocean on a clear day.|![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gen9.png) |![alt text](https://github.com/ayansengupta17/GAN/blob/master/common/images/gt9.png) |
+|Two children with black jackets and white jeans are skating on ice.   | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gen8.png) | ![alt text](http://ayansengupta17.github.io/images/project-1/images/gt8.png) |
+|A person is surfing in the ocean on a clear day.|![alt text](http://ayansengupta17.github.io/images/project-1/images/gen9.png) |![alt text](http://ayansengupta17.github.io/images/project-1/images/gt9.png) |
 
 
 > We see that the results are much better for the CUBS dataset as
