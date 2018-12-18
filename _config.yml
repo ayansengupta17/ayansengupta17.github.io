@@ -19,7 +19,7 @@ name                     : &name "Ayan Sengupta"
 description              : &description "A personal blog of an Electrical Engineer Ayan Sengupta"
 url                      : "https://ayansengupta17.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-gh_repo                  :
+gh_repo                  : "ayansengupta17.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 160
