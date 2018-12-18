@@ -152,43 +152,35 @@ given the encoder representation
 
 **Generator Architecture**
 
-    1.  After noise is appended to the encoded sentence, we use a
-        deconvolutional neural network (referred to as convolutional nets
-        with fractional strides in [6]). We use 5 layers for
-        the Generator network which are described as follows:
-
-    2.  Generate 128 dimensional conditioning latent variable using
-        twofully connected layers to map from 4800 dimensional sentence encoded
-        vector to mean and sigma predictions.
-
-    3.  Sample epsilon from normal distribution and generate the
-        conditioning variable.
-
-    4.  Append conditioning variable with noise latent variable which is
-         100 dimensional.
-
-    5.  Map the appended vector into 4x4x1024 tensor using a fully
-         connected layer and reshape the same.
-
-    6.  A deconvolutional layer with filter dimension 3x3. Stride length
-         of 2 is used giving an output of 8x8x512. Leaky ReLU
-         activation is used with the slope as 0.3 as suggested
-         in [7]. Padding used is ‘SAME’. The output is
-         batch normalized.
-
-    7.  A deconvolutional layer with filter dimension 3x3. Stride length
-         of 2 is used giving an output of 16x16x256. Leaky ReLU
-         activation is used with the slope as 0.3. Padding used is
-         ‘SAME’.The output is batch normalized.
-
-    8.  A deconvolutional layer with filter dimension 3x3. Stride length
-         of 2 is used giving an output of 32x32x128. Leaky ReLU
-         activation is used with the slope as 0.3. Padding used is
-         ‘SAME’.The output is batch normalized.
-
-    9.  A deconvolutional layer with filter dimension 3x3. Stride length
-         of 2 is used giving an output of 64x64x3. Sigmoid activation
-         is used in this layer. Padding used is ‘SAME’.
+1. After noise is appended to the encoded sentence, we use a
+    deconvolutional neural network (referred to as convolutional nets
+    with fractional strides in [6]). We use 5 layers for
+    the Generator network which are described as follows:
+2. Generate 128 dimensional conditioning latent variable using
+    twofully connected layers to map from 4800 dimensional sentence encoded
+    vector to mean and sigma predictions.
+3. Sample epsilon from normal distribution and generate the
+    conditioning variable.
+4. Append conditioning variable with noise latent variable which is
+     100 dimensional.
+5. Map the appended vector into 4x4x1024 tensor using a fully
+     connected layer and reshape the same.
+6. A deconvolutional layer with filter dimension 3x3. Stride length
+     of 2 is used giving an output of 8x8x512. Leaky ReLU
+     activation is used with the slope as 0.3 as suggested
+     in [7]. Padding used is ‘SAME’. The output is
+     batch normalized.
+7. A deconvolutional layer with filter dimension 3x3. Stride length
+     of 2 is used giving an output of 16x16x256. Leaky ReLU
+     activation is used with the slope as 0.3. Padding used is
+     ‘SAME’.The output is batch normalized.
+8. A deconvolutional layer with filter dimension 3x3. Stride length
+     of 2 is used giving an output of 32x32x128. Leaky ReLU
+     activation is used with the slope as 0.3. Padding used is
+     ‘SAME’.The output is batch normalized.
+9. A deconvolutional layer with filter dimension 3x3. Stride length
+     of 2 is used giving an output of 64x64x3. Sigmoid activation
+     is used in this layer. Padding used is ‘SAME’.
 
 **Discriminator Architecture**
 
