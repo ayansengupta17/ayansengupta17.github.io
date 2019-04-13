@@ -53,8 +53,9 @@ We have tried tweeking the convolution network with the following range of Hyper
 
 
 **One layer architecture**:
+
  | Hyperparameters |  Values |
- | ------ | ------- |
+ | -------------- | ---------- |
   | Architecture  |  1 layers |
  | Filters for layer 1  |  64 |
  | Kernel size for layer 1  |  12 |
@@ -67,15 +68,16 @@ We have tried tweeking the convolution network with the following range of Hyper
 
 
 **Two layer architecture**:
+
  | Hyperparameters | Values |
- | ------ | ------ |
+ | ------------ | ----------- |
   | Architecture  |  2 layers |
  | Filters for layer 1  |  64 |
- | Kernel size for layer 1  |  6-9 |
+ | Kernel size for layer 1  |  6 to 9 |
  | Stride for layer one  |  (2,2) to (5,5) |
  | Max pool for layer 1  |  (4,4) |
  | Filters for layer 2  |  64 and 128 |
- | Kernel for layer 2 |  3and 4 |
+ | Kernel for layer 2 |  3 and 4 |
  | Stride for layer 2 |  (2,2) to (4,4) |
  | Learning rate |  0.01 - 0.0005  |
  | Momentum |  0.7 to 0.9  |
