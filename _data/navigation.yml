@@ -10,6 +10,8 @@ main:
   - title: "Background"
     url: /background/
 
+  - title: "Goodreads"
+    url: /goodreads/
 
   - title: "CV"
     url: /cv/
