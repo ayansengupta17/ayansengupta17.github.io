@@ -3,7 +3,7 @@ title: "Text to image generation Using Deep Convolution Generative Adversarial N
 excerpt: "In this project we tried to generate realistic images from text descriptions.
 <br/><img src='/images/project-1/images/implementation.png'>"
 header:
-  image: project-1/images/implementation.png
+  image: project-1/images/header.png
 collection: projects
 ---
 
