@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /
 title: "$whoami"
 excerpt: "About me"
 ---
