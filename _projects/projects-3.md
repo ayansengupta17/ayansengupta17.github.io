@@ -8,16 +8,18 @@ collection: projects
 author_profile: true
 ---
 
-# Comment Classification
+
 ### The Idea:
 Discussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.
 So we are working on tools to help improve online public conversation. One area of focus is the study of negative online behaviours, like toxic comments (i.e. comments that are rude, disrespectful or otherwise likely to make someone leave a discussion). So we are trying to detect different types of toxic comments. We are using a dataset of comments from Wikipedia’s talk page edits. Hopefully, this will help online discussion become more productive and respectful.
 ### Quickstart:
 A basic comment classification model has been designed and currently hosted in Heroku's free servers. Currently, two methods are available for the testing and usage of the model.
 
-* **Web interface**: A web interface for our model is hosted in Heroku and an example is shown below. One can query a text in the search field and the result would be shown there only. Integration of this with other platforms is not the goal for this setup. It is only for a demonstration and testing purpose. For integrating with varied platforms, we have a simple API structure that will ease integration.
-* **API support**: Another web app has been deployed in Heroku which supports JSON requests. An example python code is given below which will fetch the result in a JSON format. The URL for the request is [https://rev-ai.herokuapp.com/result](https://rev-ai.herokuapp.com/result). One can integrate this with any platform for smooth and continuous queries.
+* **Web interface**: A web interface for our model is hosted in Heroku and an example is shown below. One can query a text in the search field and the result would be shown there only. Integration of this with other platforms is not the goal for this setup. It is only for a demonstration and testing purpose. For integrating with varied platforms, we have a simple API structure that will ease integration. Check out the web interface at [link](https://comclassify.herokuapp.com/handle_data)
+![web interface](/images/project-3/images/2.png "https://comclassify.herokuapp.com/handle_data")
 
+* **API support**: Another web app has been deployed in Heroku which supports JSON requests. An example python code is given below which will fetch the result in a JSON format. The URL for the request is [https://rev-ai.herokuapp.com/result](https://rev-ai.herokuapp.com/result). One can integrate this with any platform for smooth and continuous queries.
+![web interface](/images/project-3/images/3.png "rev-ai.herokuapp.com")
 
 
 
