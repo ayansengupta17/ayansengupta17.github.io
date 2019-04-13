@@ -3,10 +3,9 @@
    ========================================================================== */
 
 $(document).ready(function(){
-
-  // Sticky footer
+   // Sticky footer
   var bumpIt = function() {
-      $('body').css('margin-bottom', $('.page__footer').outerHeight(true));
+      $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
     },
     didResize = false;
 
@@ -16,12 +15,11 @@ $(document).ready(function(){
     didResize = true;
   });
   setInterval(function() {
-    if(didResize) {
+    if (didResize) {
       didResize = false;
       bumpIt();
     }
   }, 250);
-
   // FitVids init
   $("#main").fitVids();
 
