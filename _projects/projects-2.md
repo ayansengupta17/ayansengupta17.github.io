@@ -30,40 +30,43 @@ We have tried tweeking the convolution network with the following range of Hyper
 
 
 <figure>
-  <img src="{{site.url}}/images/project-2/images/1.jpg" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <img src="{{site.url}}/images/project-2/images/sat1.jpg" alt="my alt text"/>
+  <figcaption>WGS 64 coordinate system</figcaption>
+
+  <img src="{{site.url}}/images/project-2/images/2.jpg" alt="my alt text"/>
+  <figcaption>WGS 84 coordinate system</figcaption>
 </figure>
 
 
 **One layer architecture**:
-|Hyperparameters| Values|
-|------|-------|
- |Architecture | 1 layers|
-|Filters for layer 1 | 64|
-|Kernel size for layer 1 | 12|
-|Stride for layer 1 | (3,3) to (4,4)|
-|Max pool for layer 1 | (4,4)|
-|Learning rate | 0.005 |
-|Momentum | 0.9 |
-|Convolution layer activation function | Relu |
-|Output layer activation function | sigmoid|
+ | Hyperparameters |  Values |
+ | ------ | ------- |
+  | Architecture  |  1 layers |
+ | Filters for layer 1  |  64 |
+ | Kernel size for layer 1  |  12 |
+ | Stride for layer 1  |  (3,3) to (4,4) |
+ | Max pool for layer 1  |  (4,4) |
+ | Learning rate  |  0.005  |
+ | Momentum  |  0.9  |
+ | Convolution layer activation function  |  Relu  |
+ | Output layer activation function  |  sigmoid |
 
 
 **Two layer architecture**:
-|Hyperparameters|Values|
-|------|------|
- |Architecture | 2 layers|
-|Filters for layer 1 | 64|
-|Kernel size for layer 1 | 6-9|
-|Stride for layer one | (2,2) to (5,5)|
-|Max pool for layer 1 | (4,4)|
-|Filters for layer 2 | 64 and 128|
-|Kernel for layer 2| 3and 4|
-|Stride for layer 2| (2,2) to (4,4)|
-|Learning rate| 0.01 - 0.0005 |
-|Momentum| 0.7 to 0.9 |
-|Convolution layer activation function| Relu, Leaky Relu and softplus |
-|Output layer activation function| sigmoid|
+ | Hyperparameters | Values |
+ | ------ | ------ |
+  | Architecture  |  2 layers |
+ | Filters for layer 1  |  64 |
+ | Kernel size for layer 1  |  6-9 |
+ | Stride for layer one  |  (2,2) to (5,5) |
+ | Max pool for layer 1  |  (4,4) |
+ | Filters for layer 2  |  64 and 128 |
+ | Kernel for layer 2 |  3and 4 |
+ | Stride for layer 2 |  (2,2) to (4,4) |
+ | Learning rate |  0.01 - 0.0005  |
+ | Momentum |  0.7 to 0.9  |
+ | Convolution layer activation function |  Relu, Leaky Relu and softplus  |
+ | Output layer activation function |  sigmoid |
 
 ## Results
 
