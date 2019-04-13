@@ -68,13 +68,11 @@ We have tried tweeking the convolution network with the following range of Hyper
 ## Results
 
 The best results were got for 2 layer convolution neural network with  relu activation function for the 2 covolution layers and sigmoid activation function for fully connected layer.For the 1st covolution layer  filter dimention is 64 and kernal size 7   with stride [3 , 3]. Then max pooling was done with filter $4 \times 4$\par. For 2nd convolution layer the filter dimension is 128 and kernal size 4 and with stride
-[2 , 2]. The optimum learning rate was 0.005 and momentum 0.9. The evaluation of best model gives\\
+[2 , 2]. The optimum learning rate was 0.005 and momentum 0.9. The evaluation of best model gives,
 
 **Accuracy = 98.1 %**
 **Precision = 97.34 %**
 **Recall = 98.1 %**
-
-
 
 The best evaluations are show in the figures below.The green parts are true positives, the red parts are false positives, the blue parts are false negatives and the rest are true negatives.
 
