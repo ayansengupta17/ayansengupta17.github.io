@@ -23,11 +23,7 @@ The Satellite image (which is in WGS64) was converted into WGS84 coordinate syst
 
 We have used 15 satellite images. Dimesnsion of the images are very large and hence we have createed tiles of 64 x 64 x 3 size small larger number of images, which was used to train the model. Around 80000 smaller sized images has been created. Preprocessing of images motivated from DeepOSM libraries
 
-### Our network
-We started out with 1 convolutional layers we could not get suitable results even on our training dataset. Thereafter we fixed our network to have 2 convolutional layers.
-
-We have tried tweeking the convolution network with the following range of Hyper parameter values. The best hyper parameters  has been shown in the result session
-
+**Transfromation in coordinate system**
 
 <figure>
   <img src="{{site.url}}/images/project-2/images/sat1.jpg" alt="my alt text"/>
@@ -36,6 +32,24 @@ We have tried tweeking the convolution network with the following range of Hyper
   <img src="{{site.url}}/images/project-2/images/2.jpg" alt="my alt text"/>
   <figcaption>WGS 84 coordinate system</figcaption>
 </figure>
+
+**Visualization of non water bodies using Bitmap Image**
+
+<figure>
+  <img src="{{site.url}}/images/project-2/images/sat.jpg" alt="my alt text"/>
+  <figcaption>Bitmap Image</figcaption>
+
+  <img src="{{site.url}}/images/project-2/images/1.jpg" alt="my alt text"/>
+  <figcaption>Visualization of non water bodies</figcaption>
+</figure>
+
+
+
+### Our network
+We started out with 1 convolutional layers we could not get suitable results even on our training dataset. Thereafter we fixed our network to have 2 convolutional layers.
+
+We have tried tweeking the convolution network with the following range of Hyper parameter values. The best hyper parameters  has been shown in the result session
+
 
 
 **One layer architecture**:
@@ -79,3 +93,13 @@ The best results were got for 2 layer convolution neural network with  relu acti
 
 The best evaluations are show in the figures below.The green parts are true positives, the red parts are false positives, the blue parts are false negatives and the rest are true negatives.
 
+<figure>
+  <img src="{{site.url}}/images/project-2/images/best1.jpg" alt="my alt text"/>
+  <figcaption>Bitmap Image</figcaption>
+
+  <img src="{{site.url}}/images/project-2/images/best2.jpg" alt="my alt text"/>
+  <figcaption>Visualization of non water bodies</figcaption>
+
+  <img src="{{site.url}}/images/project-2/images/best3.jpg" alt="my alt text"/>
+  <figcaption>Visualization of non water bodies</figcaption>
+</figure>
