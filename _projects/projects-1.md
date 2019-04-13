@@ -1,7 +1,9 @@
 ---
 title: "Text to image generation Using Deep Convolution Generative Adversarial Networks (DCGANs)"
-excerpt: "In this project we tried to generate realistic images from text descriptions. Skip thought vectors were used for
- encoding ofsentences and we trained Deep Convolutional GAN on MSCOCO and CUB datasets.<br/><img src='project-1/images/implementation.png'>"
+excerpt: "In this project we tried to generate realistic images from text descriptions."
+header:
+  image: images/project-1/images/implementation.png
+
 collection: projects
 ---
 
