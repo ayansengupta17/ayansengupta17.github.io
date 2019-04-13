@@ -4,7 +4,7 @@ excerpt: "In this project we tried to generate realistic images from text descri
  encoding ofsentences and we trained Deep Convolutional GAN on MSCOCO and CUB datasets.
 header:
   image: /project-1/images/implementation.png
-  teaser: images/project-1/images/implementation.png
+
 
 collection: projects
 ---
