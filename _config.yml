@@ -120,7 +120,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-
+      classes: wide
 
   - scope:
       path: "_projects"
