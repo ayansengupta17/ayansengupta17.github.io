@@ -1,6 +1,7 @@
 ---
 title: "Text to image generation Using Deep Convolution Generative Adversarial Networks (DCGANs)"
-excerpt: "In this project we tried to generate realistic images from text descriptions."
+excerpt: "In this project we tried to generate realistic images from text descriptions.
+<br/><img src='/images/project-1/images/implementation.png'>"
 header:
   image: project-1/images/implementation.png
 collection: projects
