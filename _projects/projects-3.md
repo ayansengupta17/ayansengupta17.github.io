@@ -1,9 +1,8 @@
 ---
 title: "Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)<br> <br><img src='/images/project-3/images/teaser.jpg'>"
-excerpt: "In this project, deep learning method involving Bidirectional LSTM is used for the model for classifying toxic comments.
-The same has been deployed as a web app on Heroku using Flask framework and an API has been created for it. "
+excerpt: "Exact Solution of Partial Differential Equation(s) can be computed by the theory of Oberst-Riquier algorithms"
 header:
-  image: project-3/header.jpg
+  image: project-3/images/header.jpg
 collection: projects
 author_profile: true
 ---
