@@ -7,18 +7,23 @@ author_profile: true
 ---
 #2019
 ### Poster
-<img src="/images/hobbies/poster.png" width="48">
+<img src="/images/hobbies/poster.png" width="300">
 
 # 2017
 ### Background Hum
 Designed the 2017 issue of Background Hum, the department newsletter of Electrical Engineering Department, IIT Bombay.
 Checkout the newsletter live at [issuu](https://issuu.com/ayansengupta17/docs/bh_final)
 Download the issue from [here](/assets/BH.pdf)
-![Background hub 2017](/images/hobbies/bh.png "Background hub 2017")
+<img src="/images/hobbies/bh.png" width="300">
 
 ### Hostel Magazine Cover
-![Hostel 1](/images/hobbies/mag_f.png "magazine front cover")
-![Hostel 1](/images/hobbies/mag_b.png "magazine back cover")
+
+<p float="middle">
+  <img src="/images/hobbies/mag_f.png" width="100" alt="magazine front cover"/>
+  <img src="/images/hobbies/mag_b.png" width="100" alt="magazine back cover"/>
+
+</p>
+
 
 ### Farewell stuffs
 ![Badge](/images/hobbies/badge.png "Control and Computing Badge")
