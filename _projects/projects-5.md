@@ -8,4 +8,10 @@ collection: projects
 author_profile: true
 ---
 
-Details will be updated soon!
+<object data="https://raw.githubusercontent.com/ayansengupta17/Classification-of-Poker-Hands-using-ANN/749ab6bbdc0a59f3653f78dc973ab1fbb04d618d/Report.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://raw.githubusercontent.com/ayansengupta17/Classification-of-Poker-Hands-using-ANN/749ab6bbdc0a59f3653f78dc973ab1fbb04d618d/Report.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/ayansengupta17/Classification-of-Poker-Hands-using-ANN/749ab6bbdc0a59f3653f78dc973ab1fbb04d618d/Report.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
