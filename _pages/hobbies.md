@@ -19,9 +19,8 @@ Download the issue from [here](/assets/BH.pdf)
 ### Hostel Magazine Cover
 
 <p float="middle">
-  <img src="/images/hobbies/mag_f.png" width="100" alt="magazine front cover"/>
-  <img src="/images/hobbies/mag_b.png" width="100" alt="magazine back cover"/>
-
+  <img src="/images/hobbies/mag_f.png" width="300" alt="magazine front cover"/>
+  <img src="/images/hobbies/mag_b.png" width="300" alt="magazine back cover"/>
 </p>
 
 
