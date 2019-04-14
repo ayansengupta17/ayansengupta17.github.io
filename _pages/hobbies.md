@@ -7,7 +7,7 @@ author_profile: true
 ---
 # 2019
 ## Poster
-<img src="/images/hobbies/poster.png" width="480">
+<img src="/images/hobbies/poster.jpg" width="480">
 
 ## Certificate
 <br>
@@ -19,7 +19,7 @@ author_profile: true
 ## T-shirt Design
 <br>
 <p float="left">
-<img src="/images/hobbies/tshirt.png" width="500" alt="Invitation card">
+<img src="/images/hobbies/tshirt.jpg" width="500" alt="Invitation card">
 </p>
 
 # 2017
@@ -28,39 +28,39 @@ Designed the 2017 issue of Background Hum, the department newsletter of Electric
 Checkout the newsletter live at [issuu](https://issuu.com/ayansengupta17/docs/bh_final).
 Download the issue from [here](/assets/BH.pdf).
 <p float="left">
-<img src="/images/hobbies/bh.png" width="480" alt="Background Hum">
+<img src="/images/hobbies/bh.jpg" width="480" alt="Background Hum">
 </p>
 ## Hostel Magazine Cover
 <br>
 <p float="left">
-  <img src="/images/hobbies/mag_f.png" width="300" alt="magazine front cover"/>
-  <img src="/images/hobbies/mag_b.png" width="300" alt="magazine back cover"/>
+  <img src="/images/hobbies/mag_f.jpg" width="300" alt="magazine front cover"/>
+  <img src="/images/hobbies/mag_b.jpg" width="300" alt="magazine back cover"/>
 </p>
 
 
 ## Farewell stuffs
 <br>
 <p float="left">
-  <img src="/images/hobbies/badge.png" width="300" alt="Control and Computing Badge"/>
-  <img src="/images/hobbies/card.png" width="300" alt="Farewell card"/>
+  <img src="/images/hobbies/badge.jpg" width="300" alt="Control and Computing Badge"/>
+  <img src="/images/hobbies/card.jpg" width="300" alt="Farewell card"/>
 </p>
 
 ## Invitation card
 <br>
 <p float="left">
-<img src="/images/hobbies/invitation.png" width="480" alt="Invitation card">
+<img src="/images/hobbies/invitation.jpg" width="480" alt="Invitation card">
 </p>
 
 
 ### Logo Competition
 <br>
-<p float="left">
-<img src="/images/hobbies/nokialogo.png" width="480" alt="Nokia Logo">
+<p float="left
+<img src="/images/hobbies/nokialogo.jpg" width="480" alt="Nokia Logo">
 </p>
 
 ### Book Cover
 <br>
 <p float="left">
-<img src="/images/hobbies/cover.png" width="480" alt="Angels and Demons cover">
+<img src="/images/hobbies/cover.jpg" width="480" alt="Angels and Demons cover">
 </p>
 
