@@ -1,10 +1,8 @@
 
 ---
-
 title: "Hobbies"
 permalink: /hobbies/
 author_profile: true
-
 ---
 
 # 2017
