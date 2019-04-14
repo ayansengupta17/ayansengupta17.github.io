@@ -7,7 +7,7 @@ author_profile: true
 ---
 #2019
 ### Poster
-![Poster](/images/hobbies/poster.png "gettogether poster")
+<img src="/images/hobbies/poster.png" width="48">
 
 # 2017
 ### Background Hum
