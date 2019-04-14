@@ -51,14 +51,19 @@ Download the issue from [here](/assets/BH.pdf).
 <img src="/images/hobbies/invitation.jpg" width="480" alt="Invitation card">
 </p>
 
-
-### Logo Competition
+## Logo Competition
 <br>
-<p float="left
+<p float="left">
+<img src="/images/hobbies/banner.jpg" width="480" alt="Banner">
+</p>
+
+## Logo Competition
+<br>
+<p float="left">
 <img src="/images/hobbies/nokialogo.jpg" width="480" alt="Nokia Logo">
 </p>
 
-### Book Cover
+## Book Cover
 <br>
 <p float="left">
 <img src="/images/hobbies/cover.jpg" width="480" alt="Angels and Demons cover">
