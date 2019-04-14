@@ -1,9 +1,9 @@
 ---
-title: "Designing Linear Controller for Balancing of an Inverted Pendulum"
+title: "Designing Linear Controller for Balancing of an Inverted Pendulum<br> <br><img src='/images/project-6/teaser.jpg'>"
 excerpt: "In this project, a LQR controller was designed to balance the inverted
- pendulum using Arduino Mega and MATLAB. It achieved the design requirements of motor angle variations
- less than 30 degrees, pendulum angle variations
-less than 3 degrees and control input less than 12V"
+ pendulum using Arduino Mega and MATLAB."
+header:
+  image: project-6/header.jpg
 collection: projects
 ---
 
