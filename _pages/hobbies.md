@@ -6,7 +6,9 @@ header:
 author_profile: true
 ---
 # 2019
+<br>
 ## Poster
+<br>
 <img src="/images/hobbies/poster.jpg" width="480">
 
 ## Certificate
@@ -23,12 +25,14 @@ author_profile: true
 </p>
 
 # 2017
+<br>
 ## Background Hum
+<br>
 Designed the 2017 issue of Background Hum, the department newsletter of Electrical Engineering Department, IIT Bombay.
 Checkout the newsletter live at [issuu](https://issuu.com/ayansengupta17/docs/bh_final).
 Download the issue from [here](/assets/BH.pdf).
 <p float="left">
-<img src="/images/hobbies/bh.jpg" width="480" alt="Background Hum">
+<img src="/images/hobbies/bh.jpg" width="600" alt="Background Hum">
 </p>
 ## Hostel Magazine Cover
 <br>
@@ -51,7 +55,7 @@ Download the issue from [here](/assets/BH.pdf).
 <img src="/images/hobbies/invitation.jpg" width="480" alt="Invitation card">
 </p>
 
-## Logo Competition
+## Banner
 <br>
 <p float="left">
 <img src="/images/hobbies/banner.jpg" width="480" alt="Banner">
