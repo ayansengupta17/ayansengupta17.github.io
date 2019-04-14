@@ -5,5 +5,9 @@ Pendulum to control it in upright position <br/><img src='/images/traffic_modell
 collection: projects
 ---
 
-<div class="pdf-container loaded" data-file="https://raw.githubusercontent.com/ayansengupta17/Design-of-Non-Linear-Controller-of-Rotary-Inverted-Pendulum/bdd6ac3aa2a7db1269bc91b9345c023ca01c752c/NLDS.pdf" data-worker="/assets/pdf/worker-de03a6262fe73d7da5661d85cbb46962.js" data-bcmap-dir="https://render.githubusercontent.com/pdf/">
-<canvas class="pdf-page" data-page="0" height="2588" width="2000"></canvas><canvas class="pdf-page" data-page="1" height="2588" width="2000"></canvas><canvas class="pdf-page" data-page="2" height="2588" width="2000"></canvas><canvas class="pdf-page" data-page="3" height="2588" width="2000"></canvas><canvas class="pdf-page" data-page="4" height="2588" width="2000"></canvas></div>
+
+<object data="https://raw.githubusercontent.com/ayansengupta17/Design-of-Non-Linear-Controller-of-Rotary-Inverted-Pendulum/bdd6ac3aa2a7db1269bc91b9345c023ca01c752c/NLDS.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://raw.githubusercontent.com/ayansengupta17/Design-of-Non-Linear-Controller-of-Rotary-Inverted-Pendulum/bdd6ac3aa2a7db1269bc91b9345c023ca01c752c/NLDS.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/ayansengupta17/Design-of-Non-Linear-Controller-of-Rotary-Inverted-Pendulum/bdd6ac3aa2a7db1269bc91b9345c023ca01c752c/NLDS.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
