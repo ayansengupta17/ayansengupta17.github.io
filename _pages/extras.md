@@ -1,6 +1,8 @@
 ---
-title: "Other Works<br><br><img src='/images/extras_header.jpg'>"
+title: "Other Works"
 permalink: /extras/
+header:
+  image: extras_header.jpg
 author_profile: true
 ---
 
