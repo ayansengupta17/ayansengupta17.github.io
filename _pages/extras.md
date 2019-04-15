@@ -1,12 +1,10 @@
 ---
-title: "Extras"
+title: "Other Works"
 permalink: /extras/
 author_profile: true
 ---
 
 
-
-# Other Works
 
 * Designed [Control and Computing](https://www.ee.iitb.ac.in/~ccgroup/) (IIT Bombay) website.
 * Conducted Basic Python Workshop. Files: [workshop ipython files](https://github.com/ayansengupta17/PythonWorkshop)
