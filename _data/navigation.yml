@@ -6,6 +6,9 @@ main:
   - title: "Hobbies"
     url: /hobbies/
 
+  - title: "Extras"
+    url: /extras/
+
   - title: "Background"
     url: /background/
 
