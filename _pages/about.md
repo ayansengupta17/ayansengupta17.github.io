@@ -17,7 +17,7 @@ Moreover, I love to learn new skills. In less than 24 months, I’ve learned the
 1. **How to use Adobe InDesign.** Now I can create and publish magazines/newsletter using Adobe InDesign. I was working on our departmental newsletter, and finally it is done. Check out the newsletter below:
 [Background Hum 2017]("https://issuu.com/ayansengupta17/docs/bh_final")
 2. **How to use SageMath.** SageMath is a free open-source mathematics software system. It is built on top of many existing open-source packages such as  NumPy, SciPy, matplotlib, SymPy, Maxima, GAP, FLINT, R and many more.
-3. **How to solve Rubik's cube.** I won't claim I learned it just by myself in a random weekend. Actually, I learned to solve Rubik's cube from YouTube videos. I am not a speedcuber, not even close, but yes I can solve it!
+3. **How to solve Rubik's cube.** I won't claim that I learned it just by myself in a random weekend. Actually, I learned to solve Rubik's cube from YouTube videos. I am not a speedcuber, not even close, but yes I can solve it!
 4. **How to solve Magic cube.** The intuitions and methods are the same as a normal Rubik's cube, but it requires a bit of practice.
 
 Apart from these, I love playing FIFA and other online multiplayer games like Counter-Strike.<br/>
