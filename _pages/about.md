@@ -9,7 +9,7 @@ Institute of Technology, Bombay. I completed my B.Tech from Indian Institute of
 Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal
 Engineering and Science University, Shibpur). My passion is to bring machine learning to a practical level where it is a product that solves problem for people.
 My major interests are in the domain of data science, machine learning, deep learning and reinforcement learning. But currently I am working on two projects which are not in the field of machine learning
-, one being *Fast Computation of exact solution of partial differential equations* and the other one is *Boundary control of Infinite Dimensional Systems*.
+, one being *Fast Computation of exact solution of partial differential equations* while the other one is *Boundary control of Infinite Dimensional Systems*.
 I worked on some other projects, requiring skills from deep learning, arduino, python to swift programming language.
 For other projects check out my [GitHub]("https://github.com/ayansengupta17/")
 
