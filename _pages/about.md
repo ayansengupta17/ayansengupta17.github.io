@@ -20,6 +20,6 @@ Moreover, I love to learn new skills. In less than 24 months, I’ve learned the
 3. **How to solve Rubik's cube.** I won't claim I learnt it just by myself in a random weekend. Actually, I learned to solve Rubik's cube from YouTube videos. I am not a speed cuber, not even close, but yes I can solve it!
 4. **How to solve Magic cube.** The intuitions and methods are same as a normal Rubik's cube, but it requires a bit of practice.
 
-Apart from these, I love playing FIFA and other online multiplayer games like Counter-Strike.
+Apart from these, I love playing FIFA and other online multiplayer games like Counter-Strike.<br/>
 PS: I am a great fan of Harry Potter series.
 
