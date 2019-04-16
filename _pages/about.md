@@ -5,7 +5,7 @@ excerpt: "About me"
 ---
 
 Currently, I am pursuing my Masters in Control and computing from Indian
-Institute of Technology, Bombay. I completed my B.Tech from Indian Institute of
+Institute of Technology, Bombay. I graduated from Indian Institute of
 Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal
 Engineering and Science University, Shibpur). My passion is to bring machine learning to a practical level where it is a product that solves problem for people.
 My major interests are in the domain of data science, machine learning, deep learning and reinforcement learning. But currently I am working on two projects which are not in the field of machine learning
