@@ -4,7 +4,7 @@ title: "$whoami"
 excerpt: "About me"
 ---
 
-Currently, I am pursuing my Masters in Control and computing from Indian
+I am currently pursuing my Masters in Control and Computing from Indian
 Institute of Technology, Bombay. I graduated from Indian Institute of
 Engineering Science and Technology (IIEST), Shibpur (formerly known as Bengal
 Engineering and Science University, Shibpur). My passion is to bring machine learning to a practical level where it is a product that solves problem for people.
