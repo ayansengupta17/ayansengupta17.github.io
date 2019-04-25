@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "$whoami"
+title: "$ whoami"
 excerpt: "About me"
 ---
 
