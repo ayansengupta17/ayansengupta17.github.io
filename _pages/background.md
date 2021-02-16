@@ -43,7 +43,7 @@ Research Assistant at **Indian Institute of Technology Bombay**
 
 Education
 -----
-* M.Tech. in Control and Computing, Indian Institute of Technology Bombay (2016-2019)
+* M.Tech. in [Control and Computing](https://www.ee.iitb.ac.in/~ccgroup/), Indian Institute of Technology Bombay (2016-2019)
 * B.E. in Electrical Engineering, Indian Institute of Engineering Science and Technology, Shibpur (previously BESU, Shibpur) (2011-2015)
 
 

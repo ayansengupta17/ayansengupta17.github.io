@@ -33,6 +33,6 @@ It was held in International Joint Conferences on Artificial Intelligence (IJCAI
 
 2. Document [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/report.pdf)
 
-3. Presentation [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/SCML2020_presentation.pdf.pdf)
+3. Presentation [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/SCML2020_presentation.pdf)
 
 
