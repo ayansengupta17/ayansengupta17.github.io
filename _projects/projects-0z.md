@@ -1,8 +1,8 @@
 ---
-title: "RL based Autonomous Negotiating Agent Framework <br/><br/><img src='/images/project-0/images/neg.png'>"
+title: "RL based Autonomous Negotiating Agent Framework <br/><br/><img src='/images/project-0z/images/neg.png'>"
 excerpt: "An Autonomous Negotiating Agent Framework with Reinforcement Learning Based Strategies and Adaptive Strategy Switching Mechanism"
 header:
-  image: project-0/images/header.png
+  image: project-0z/images/header.png
 collection: projects
 ---
 
