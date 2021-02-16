@@ -12,11 +12,12 @@ My major interests are in the domain of machine learning, deep learning, reinfor
 
 Current Project
 ------
-** NEC Japan**
+**NEC Japan**
 (October 2019 - Present)
 
 * Automated Negotiation
-    * Involves research in the feild of Automated Negotiation and reinforcement learning
+    * Involves research in the feild of Automated Negotiation and Reinforcement Learning
+    * Involves research aspects aligned to the buisness goal of the team
 
 
 
