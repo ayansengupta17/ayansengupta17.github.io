@@ -1,5 +1,5 @@
 ---
-title: "RL based Autonomous Negotiating Agent Framework <br/><br/><img src='/images/project-0z/images/neg.png'>"
+title: "Reinforcement Learning Based Autonomous Negotiating Agent Framework <br/><br/><img src='/images/project-0z/images/neg.png'>"
 excerpt: "An Autonomous Negotiating Agent Framework with Reinforcement Learning Based Strategies and Adaptive Strategy Switching Mechanism"
 header:
   image: project-0z/images/header.png
@@ -15,8 +15,8 @@ Despite abundant negotiation strategies in literature, the complexity of automat
 
 **Comment**
 --------------------------------
-Accepted in AAMAS 2021
+Accepted in 20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2021)
 
-**Links**
+**Paper**
 --------------------------------
-An Autonomous Negotiating Agent Framework with Reinforcement Learning Based Strategies and Adaptive Strategy Switching Mechanism [Link](https://arxiv.org/abs/2102.03588)
+[An Autonomous Negotiating Agent Framework with Reinforcement Learning Based Strategies and Adaptive Strategy Switching Mechanism](https://arxiv.org/abs/2102.03588)
