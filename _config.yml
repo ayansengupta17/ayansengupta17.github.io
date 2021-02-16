@@ -16,7 +16,7 @@ locale                   : "en-US"
 title                    : "Ayan Sengupta"
 title_separator          : "-"
 name                     : &name "Ayan Sengupta"
-description              : &description "A personal blog of an Electrical Engineer Ayan Sengupta"
+description              : &description "A personal blog of  Ayan Sengupta"
 url                      : "https://ayansengupta17.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "ayansengupta17.github.io"
@@ -73,8 +73,8 @@ google_ad_slot           :
 author:
   name             : "Ayan Sengupta"
   avatar           : "me.jpg"
-  bio              : "An Electrical Engineer, currently pursuing masters in Control & Computing, IIT Bombay"
-  location         : "India"
+  bio              : "Researcher, Data Science Research Laboratory, NEC Japan"
+  location         : "Japan"
   email            : "ayansengupta17@gmail.com"
   uri              :
   bitbucket        :
