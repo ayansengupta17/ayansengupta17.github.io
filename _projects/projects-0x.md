@@ -19,7 +19,7 @@ The score calculated in SCML is based on a percentage of profit and remnant unso
  The simulation proceeds in discrete time steps during which multiple simultaneous negotiations take place.
   There are two separate tracks in SCML, 2020: standard track and collusion track. In the standard track,
    at most one instantiation of each team’s agent will run in each simulation whereas, in the collusion
-   track, multiple instantiations of the same team’s agent will run dur- ing a single simulation.
+   track, multiple instantiations of the same team’s agent will run during a single simulation.
 
 **Awards**
 --------------------------------
@@ -29,8 +29,10 @@ It was held in International Joint Conferences on Artificial Intelligence (IJCAI
 
 **Codes and Document**
 --------------------------------
-Agent Merchant code  [Link](https://github.com/yasserfarouk/scml-agents/tree/master/scml_agents/scml2020/a_sengupta)
-Document [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/report.pdf)
-Presentation [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/report.pdf)
+1. Agent Merchant code  [Link](https://github.com/yasserfarouk/scml-agents/tree/master/scml_agents/scml2020/a_sengupta)
+
+2. Document [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/report.pdf)
+
+3. Presentation [Link](https://github.com/yasserfarouk/scml-agents/blob/master/scml_agents/scml2020/a_sengupta/SCML2020_presentation.pdf.pdf)
 
 
