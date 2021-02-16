@@ -9,9 +9,20 @@ Interest
 My passion is to bring machine learning to a practical level where it is a product that solves challenging problem for people.
 My major interests are in the domain of machine learning, deep learning, reinforcement learning and control systems.
 
-Current Projects
+
+Current Project
 ------
-Final Year Student in **Indian Institute of Technology Bombay**
+** NEC Japan**
+(October 2019 - Present)
+
+* Automated Negotiation
+    * Involves research in the feild of Automated Negotiation and reinforcement learning
+
+
+
+Last Academic Project
+------
+**Indian Institute of Technology Bombay**
 (May 2018 – Present)
 
 * Boundary Control of Infinite Dimensional Systems
