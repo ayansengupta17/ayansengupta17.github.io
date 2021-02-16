@@ -1,13 +1,14 @@
 ---
-title: " Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems<br><br><img src='/images/project-3/images/teaser.jpg'>"
+title: " Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems<br><br><img src='/images/project-2x/images/rod.png'>"
 excerpt: "Oberst-Riquier Based Generalised Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems"
 header:
-  image: project-3/images/header.jpg
+  image: project-2x/images/header.png
 collection: projects
 author_profile: true
 ---
 
 **Abstract**
+-----
 We propose a generalised approach to solving the trajectory generation problem, which is usually the first step for
 solving a broader class of control problems known as the
 motion planning problem or trajectory tracking problem.
@@ -27,6 +28,7 @@ classifying them into conventional classes of boundary conditions.
 
 
 **Comments**
+----
 
 Presented at [SIAM Conference on Analysis of Partial Differential Equations](https://www.siam.org/conferences/cm/conference/pd19)
 
