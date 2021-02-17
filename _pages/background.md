@@ -16,8 +16,8 @@ Current Project
 (October 2019 - Present)
 
 * Automated Negotiation
-    * Involves research in the feild of Automated Negotiation and Reinforcement Learning
-    * Involves research aspects aligned to the buisness goal of the team
+    * Involves research in the field of Automated Negotiation and Reinforcement Learning
+    * Involves research aspects aligned to the business goal of the team
 
 
 
