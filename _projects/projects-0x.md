@@ -7,7 +7,7 @@ collection: projects
 ---
 
 
-**SCML: Introduction:**
+**SCML Introduction:**
 ---------------
 
 The SCM world simulates a supply chain consisting of multiple factories that buy
