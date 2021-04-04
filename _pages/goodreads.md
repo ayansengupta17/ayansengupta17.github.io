@@ -7,7 +7,7 @@ author_profile: true
 
 2020
 ----
-* [The lowland](https://www.goodreads.com/en/book/show/17262100-the-lowland) by Jhumpa Lahiri
+* [The Lowland](https://www.goodreads.com/en/book/show/17262100-the-lowland) by Jhumpa Lahiri
 * [Ikigai: The Japanese Secret to a Long and Happy Life](https://www.goodreads.com/book/show/40534545-ikigai?from_search=true&from_srp=true&qid=VXVULA6iwJ&rank=1) by  Hector Garcia Puigcerver
 * [Corporate Chanakya on Management](https://www.goodreads.com/book/show/22240467-corporate-chanakya-on-management?ac=1&from_search=true&qid=4PbpJD4pvg&rank=1) by Radhakrishnan Pillai
 
