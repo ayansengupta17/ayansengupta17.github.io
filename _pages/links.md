@@ -10,7 +10,7 @@ redirect_from:
 
 Resume
 -------
-My resume: [Resume (2020)](http://ayansengupta17.github.io/files/ayansengupta.pdf).
+My resume: [Resume (2020)](http://ayansengupta17.github.io/files/cv.pdf).
 
 
 Conferences (Related to ML)
