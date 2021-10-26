@@ -16,15 +16,15 @@ Work Experience
 (October 2019 - Present)
 
 * AI Researcher, Global Innovation Unit
-    * Designed and implemented a novel Reinforcement Learning and Deep Learning based state-of-the-art automated negotiating agent framework with an average performance improvement of 25%. [Papaer](https://dl.acm.org/doi/10.5555/3463952.3464087)
+    * Designed and implemented a novel Reinforcement Learning and Deep Learning based state-of-the-art automated negotiating agent framework with an average performance improvement of 25%. [Paper](https://dl.acm.org/doi/10.5555/3463952.3464087)
     * Collaborated with The National Institute of Advanced Industrial Science and Technology, Japan (AIST) for research and design of automated negotiation protocols, strategies and value function for various domains.
-    * Reviewed and edited Business Requirement Specifications (BRS) and Implementation guidelines of eNegotiation project for The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) as an expert member.
-    * Developed an automated negotiating agent using NegMAS framework for Supply Chain Management League of Automated Negotiating Agents Competition 2020 (ANAC 2020) and secured the 2nd position.
+    * Reviewed and edited Business Requirement Specifications (BRS) and Implementation guidelines of eNegotiation project for The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) as an expert member. [Public Review](https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%3A+E-NEGOTIATION+BRS)
+    * Developed an automated negotiating agent using NegMAS framework for Supply Chain Management League of Automated Negotiating Agents Competition 2020 (ANAC 2020) and secured the 2nd position. [Competition Home](http://web.tuat.ac.jp/~katfuji/ANAC2020/#:~:text=ANAC%202020%20will%20go%20ahead,postponed%20until%2014th%20July%2C%202020.)
 
 
 
 **Indian Institute of Technology Bombay**
-(June 2016 – July 2018)
+(July 2016 – June 2019)
 
 * Research Assistant, Control and Computing Lab
     * Proposed and implemented a novel algebraic solver for solving boundary control problem of real world applications governed by partial differential equations. [Paper](https://www.ee.iitb.ac.in/~debasattam/papers/SIAMPD19_ayan.pdf)
