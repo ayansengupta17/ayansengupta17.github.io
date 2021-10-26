@@ -10,34 +10,26 @@ My passion is to bring machine learning to a practical level where it is a produ
 My major interests are in the domain of machine learning, deep learning, reinforcement learning and control systems.
 
 
-Current Project
+Work Experience
 ------
-**NEC Japan**
+**NEC Corporation, Japan**
 (October 2019 - Present)
 
-* Automated Negotiation
-    * Involves research in the field of Automated Negotiation and Reinforcement Learning
-    * Involves research aspects aligned to the business goal of the team
+* AI Researcher, Global Innovation Unit
+    * Designed and implemented a novel Reinforcement Learning and Deep Learning based state-of-the-art automated negotiating agent framework with an average performance improvement of 25%. [Papaer](https://dl.acm.org/doi/10.5555/3463952.3464087)
+    * Collaborated with The National Institute of Advanced Industrial Science and Technology, Japan (AIST) for research and design of automated negotiation protocols, strategies and value function for various domains.
+    * Reviewed and edited Business Requirement Specifications (BRS) and Implementation guidelines of eNegotiation project for The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) as an expert member.
+    * Developed an automated negotiating agent using NegMAS framework for Supply Chain Management League of Automated Negotiating Agents Competition 2020 (ANAC 2020) and secured the 2nd position.
 
 
 
-Last Academic Project
-------
 **Indian Institute of Technology Bombay**
-(May 2018 – Present)
+(June 2016 – July 2018)
 
-* Boundary Control of Infinite Dimensional Systems
-    * Involves boundary control of systems represented by partial differential equation(s).
-    * Involves algebraic analysis of motion planning of systems governed by partial differential equations.
-    * Proposed algorithmic way of solving motion planning problems for infinite dimensional systems.
+* Research Assistant, Control and Computing Lab
+    * Proposed and implemented a novel algebraic solver for solving boundary control problem of real world applications governed by partial differential equations. [Paper](https://www.ee.iitb.ac.in/~debasattam/papers/SIAMPD19_ayan.pdf)
+    * Implemented algorithms for checking potential solution spaces of PDEs using Python and SageMath for "Algebraic Solver of PDEs" project funded by Ministry of Science and Technology, India. [Project Page](https://www.ee.iitb.ac.in/~debasattam/ASOP.html)
 
-Research Assistant at **Indian Institute of Technology Bombay**
-(Aug 2016 – Present)
-[Project Page](https://www.ee.iitb.ac.in/~debasattam/ASOP.html)
-* Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)
-    * Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm.
-    * Implemented the algorithms for Characteristic Cones given by equation ideal and equation module.
-    * All the implementations were done in *Python* using open source [SageMath](http://www.sagemath.org/) libraries.
 
 
 
