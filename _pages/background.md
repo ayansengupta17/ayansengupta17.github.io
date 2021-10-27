@@ -23,7 +23,7 @@ Work Experience
 
 
 
-**Indian Institute of Technology Bombay**
+**Indian Institute of Technology Bombay, India**
 (July 2016 – June 2019)
 
 * Research Assistant, Control and Computing Lab
