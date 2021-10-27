@@ -15,12 +15,12 @@ I actively participate in the public debate for the disclosure and sustainable d
 Previously I worked as Research Assistant in Control and Computing lab in IIT Bombay.
 I majorly worked on novel algebraic solvers for solving boundary control problem of real
 world applications governed by partial differential equations. During that time, I also
- completed my Masters in Control and Computing from Indian Institute of Technology Bombay. I am
-passionate about bringing machine learning to a practical level where it is
-a product that solves problem for people.
+ completed my Masters in Control and Computing from Indian Institute of Technology Bombay.
 
 My major interests are in the domain of data science, machine
-learning, deep learning and reinforcement learning.
+learning, deep learning and reinforcement learning.  I am
+passionate about bringing machine learning to a practical level where it is
+a product that solves problem for people.
 
 For more projects check out my
 [GitHub]("https://github.com/ayansengupta17/") page.
