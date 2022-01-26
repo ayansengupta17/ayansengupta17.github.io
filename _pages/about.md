@@ -4,7 +4,7 @@ title: "About me"
 excerpt: "About me"
 ---
 
-** 2019 - Present
+**2019 - Present
 I am currently working in the Global Innovation Unit of NEC
 Corporation, Japan as an AI researcher. I am responsible for extending
 the boundaries of research in the field of **Automated Negotiation**.
@@ -24,7 +24,7 @@ To know more about my current work, checkout the following links:
 * [Press Release Jan, 2022](https://www.globenewswire.com/news-release/2022/01/17/2367820/0/en/Industry-IoT-Consortium-Welcomes-BIRD-INITIATIVE-to-Negotiation-Automation-Platform-Testbed.html)
 
 
-** 2016 - 2019
+**2016 - 2019
 Previously I worked as Research Assistant in Control and Computing lab in IIT Bombay.
 I majorly worked on novel algebraic solvers for solving boundary control problem of real
 world applications governed by partial differential equations. During that time, I also
