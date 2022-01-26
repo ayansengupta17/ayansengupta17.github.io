@@ -14,8 +14,10 @@ I actively participate in the public debate for the disclosure and sustainable d
 
 To know more about my current work, checkout the following links:
 * [Negotiation Automation Platform](https://hub.iiconsortium.org/negotiation-automation-platform)
+* [UNECE E-Negotiation Project](https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%3A+E-NEGOTIATION+BRS)
 * [Automated Negotiation SCM Consortium (Japanese)](https://automated-negotiation.org)
 * [BIRD Initiative](https://bird-initiative.com/english/)
+* [Automated Negotiating Agents Competition](https://web.tuat.ac.jp/~katfuji/ANAC2021/)
 * [Press Release by IIC Aug, 2019](https://www.iiconsortium.org/press-room/08-05-19.htm)
 * [Press Release by NEC Aug, 2019](https://www.nec.com/en/press/201908/global_20190821_02.html)
 * [Press Release Jan, 2022](https://www.globenewswire.com/news-release/2022/01/17/2367820/0/en/Industry-IoT-Consortium-Welcomes-BIRD-INITIATIVE-to-Negotiation-Automation-Platform-Testbed.html)
