@@ -37,7 +37,6 @@ learning, deep learning and reinforcement learning.  I am
 passionate about bringing machine learning to a practical level where it is
 a product that solves problem for people.
 
-For more projects check out my
-[GitHub]("https://github.com/ayansengupta17/") page.
+For more projects check out my [GitHub](https://github.com/ayansengupta17/) page.
 
 
