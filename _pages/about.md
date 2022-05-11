@@ -34,6 +34,13 @@ partial differential equations. During that time, I also completed my Masters in
 of Technology Bombay.My major interests are in the domain of data science, machine learning, deep learning, and reinforcement learning.
 
 
+Recent accomplishments:
+-----------------------
+
+2022 Publication: IJCAI 2022 (Not yet public)
+2022 Competiiton: [Japan Embassy Online Photo Competiton](https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html)
+2021 Publication: [AAMAS 2021](https://dl.acm.org/doi/10.5555/3463952.3464087)
+2020 Competition: [ANAC 2020](https://ayansengupta17.github.io/projects/projects-0x/)
 
 For more projects check out my [GitHub](https://github.com/ayansengupta17/) page.
 
