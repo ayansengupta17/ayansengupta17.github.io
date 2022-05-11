@@ -5,6 +5,15 @@ author_profile: true
 ---
 
 
+2021
+----
+* [Masters of Scale](https://www.goodreads.com/book/show/57005189-masters-of-scale?from_search=true&from_srp=true&qid=a2qeKS2wLi&rank=1) by Reid Hoffman
+* [How to Lie with Statistics](https://www.goodreads.com/book/show/51291.How_to_Lie_with_Statistics?from_search=true&from_srp=true&qid=imOgdZbb3d&rank=1) by  Darrell Huff
+* [The art of Statistics](https://www.goodreads.com/book/show/43722897-the-art-of-statistics?from_search=true&from_srp=true&qid=uExfto1Asf&rank=2) by David Spiegelhalter
+* [Antimatter](https://www.goodreads.com/book/show/6279924-antimatter?from_search=true&from_srp=true&qid=pJj8KTxq0R&rank=3) by Frank Close
+* [Google Leaks](https://www.goodreads.com/book/show/57478538-google-leaks?from_search=true&from_srp=true&qid=7v2jFJPVId&rank=1) by Zach Vorhies
+
+
 2020
 ----
 * [The Lowland](https://www.goodreads.com/en/book/show/17262100-the-lowland) by Jhumpa Lahiri
