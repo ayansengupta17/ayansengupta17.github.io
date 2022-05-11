@@ -19,7 +19,7 @@ Accepted in 20th International Conference on Autonomous Agents and Multiagent Sy
 
 **Paper**
 --------------------------------
-[AAMAS 2021](https://dl.acm.org/doi/10.5555/3463952.3464087)
-[arxiv](https://arxiv.org/abs/2102.03588)
-[Patent WO2022075398A1](https://patentimages.storage.googleapis.com/a8/db/d9/74fb6493b20efd/WO2022075398A1.pdf)
+* [AAMAS 2021](https://dl.acm.org/doi/10.5555/3463952.3464087)
+* [arxiv](https://arxiv.org/abs/2102.03588)
+* [Patent WO2022075398A1](https://patentimages.storage.googleapis.com/a8/db/d9/74fb6493b20efd/WO2022075398A1.pdf)
 
