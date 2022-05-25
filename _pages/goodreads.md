@@ -5,6 +5,13 @@ author_profile: true
 ---
 
 
+2022
+----
+* [No Red Lights](https://www.goodreads.com/book/show/59365385-no-red-lights) by Alan Patricof
+* [Zero to One](https://www.goodreads.com/book/show/18050143-zero-to-one) by  Peter Thiel and Blake Masters
+* [Super Founders](https://www.goodreads.com/en/book/show/55277918) by Ali Tamaseb
+
+
 2021
 ----
 * [Masters of Scale](https://www.goodreads.com/book/show/57005189-masters-of-scale?from_search=true&from_srp=true&qid=a2qeKS2wLi&rank=1) by Reid Hoffman
