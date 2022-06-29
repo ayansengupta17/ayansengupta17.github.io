@@ -6,16 +6,25 @@ excerpt: "About me"
 
 I am passionate about bringing machine learning to a practical level where it is a product that solves problems for people.
 
-2019 - Present
-------------
-I am currently working in the Global Innovation Unit of NEC Corporation, Japan as an AI researcher.
- I am responsible for extending the boundaries of research in the field of Automated Negotiation.
-  My work falls under the intersection of domains of Automated Negotiation, Reinforcement Learning, and Deep Learning.
- Moreover, I’m also a member of the group of experts of the United Nations Centre for
-  Trade Facilitation and Electronic Business ([UN/CEFACT](https://unece.org/trade/uncefact)). I actively participate in the public debate
-   for the disclosure and sustainable development of technology.
+2022 - Present
+--------------
+Currently I am working at an AI startup [Cogent Labs](https://www.cogent.co.jp/en/), whose primary goal is to power productivity with Artificial Intelligence. Cogent Labs has been in the list of <strong>LinkedIn Top Startups 2021</strong> for the three consecutive years. Currently my work is majorly focused in one of our top products called [SmartRead](https://smartread.jp/).
 
-To know more about my current work, checkout the following links:
+To get a brief idea on our product, have a glance at the following video:
+
+[![SmartRead](http://img.youtube.com/vi/B4Titvko8Wc/0.jpg)](https://www.youtube.com/watch?v=B4Titvko8Wc "SmartRead")
+
+2019 - 2022
+------------
+I was working in the Global Innovation Unit of NEC Corporation, Japan as an AI researcher.
+ I was responsible for extending the boundaries of research in the field of Automated Negotiation.
+  My work fell under the intersection of domains of Automated Negotiation, Reinforcement Learning, and Deep Learning.
+
+ Moreover, I’m also a member of the group of experts of the United Nations Centre for
+Trade Facilitation and Electronic Business ([UN/CEFACT](https://unece.org/trade/uncefact)). I actively participate in the public debate
+for the disclosure and sustainable development of technology.
+
+To know more about my work at NEC, checkout the following links:
 * [Negotiation Automation Platform](https://hub.iiconsortium.org/negotiation-automation-platform)
 * [UNECE E-Negotiation Project](https://uncefact.unece.org/display/uncefactpublicreview/Public+Review%3A+E-NEGOTIATION+BRS)
 * [Automated Negotiation SCM Consortium (Japanese)](https://automated-negotiation.org)
