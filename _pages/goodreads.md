@@ -10,6 +10,10 @@ author_profile: true
 * [No Red Lights](https://www.goodreads.com/book/show/59365385-no-red-lights) by Alan Patricof
 * [Zero to One](https://www.goodreads.com/book/show/18050143-zero-to-one) by  Peter Thiel and Blake Masters
 * [Super Founders](https://www.goodreads.com/en/book/show/55277918) by Ali Tamaseb
+* [The Expectation Effect](https://www.goodreads.com/en/book/show/57771229-the-expectation-effect) by David Robson
+* [Noise](https://www.goodreads.com/book/show/55339408-noise) by Daniel Kahneman
+* [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money) by Morgan Housel
+* [You Coach You](https://www.goodreads.com/book/show/57951422-you-coach-you) by Hellen Tupper
 
 
 2021
