@@ -12,6 +12,13 @@ My major interests are in the domain of machine learning, deep learning, reinfor
 
 Work Experience
 ------
+**Cogent Labs, Japan**
+(May 2022 - Present)
+
+* Senior Machine Learning Scientist
+    * TBU
+
+
 **NEC Corporation, Japan**
 (October 2019 - Present)
 

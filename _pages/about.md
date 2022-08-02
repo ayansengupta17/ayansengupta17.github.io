@@ -46,7 +46,7 @@ of Technology Bombay.My major interests are in the domain of data science, machi
 Recent accomplishments:
 -----------------------
 
-* [2022] Publication: IJCAI 2022 (Not yet public)
+* [2022] Publication: [IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework](https://www.ijcai.org/proceedings/2022/0067.pdf)
 * [2022] Competiiton: [Japan Embassy Online Photo Competiton](https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html)
 * [2021] Publication: [AAMAS 2021](https://dl.acm.org/doi/10.5555/3463952.3464087)
 * [2020] Competition: [ANAC 2020](https://ayansengupta17.github.io/projects/projects-0x/)
