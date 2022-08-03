@@ -2,7 +2,7 @@
 title: "IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework<br/><br/><img src='/images/project-0w/images/header.png'>"
 excerpt: "A state of the art Transfer Learning Based Adaptive Automated Negotiating Agent creating framework."
 header:
-  image: project-0x/images/anac2020-logo.png
+  image: project-0x/images/poster.jpeg
 collection: projects
 ---
 
