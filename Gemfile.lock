@@ -37,7 +37,7 @@ GEM
       jekyll-seo-tag (= 2.0.0)
       jekyll-sitemap (= 0.10.0)
       jemoji (= 0.6.2)
-      kramdown (= 1.11.1)
+      kramdown (>= 2.3.0)
       liquid (= 3.0.6)
       listen (= 3.0.6)
       mercenary (~> 0.3)

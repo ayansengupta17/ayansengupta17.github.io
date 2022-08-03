@@ -1,6 +1,6 @@
 ---
-title: "Agent Merchant: Supply Chain Management League (ANAC 2020) <br/><br/><img src='/images/project-0x/images/header.png'>"
-excerpt: "Design and build an autonomous agent that negotiates on behalf of a factory manager situated in a supply chain management simulation."
+title: "IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework<br/><br/><img src='/images/project-0w/images/header.png'>"
+excerpt: "A state of the art Transfer Learning Based Adaptive Automated Negotiating Agent creating framework."
 header:
   image: project-0x/images/anac2020-logo.png
 collection: projects
