@@ -2,7 +2,7 @@
 title: "IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework<br/><br/><img src='/images/project-0w/images/header.png'>"
 excerpt: "A state of the art Transfer Learning Based Adaptive Automated Negotiating Agent creating framework."
 header:
-  image: project-0w/images/poster.jpeg
+  image: project-0w/images/logo.png
 collection: projects
 ---
 
@@ -41,7 +41,7 @@ independent agents by 6%.
 --------------------------------
 1. Paper: [Link](https://www.ijcai.org/proceedings/2022/0067.pdf)
 
-2. Poster: [Link](http://ayansengupta17.github.io/project-0w/images/poster.pdf)
+2. Poster: [Link](http://ayansengupta17.github.io/images/project-0w/poster.pdf)
 
 
 
