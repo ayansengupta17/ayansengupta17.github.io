@@ -4,6 +4,9 @@ title: "About me"
 excerpt: "About me"
 ---
 
+[![MentorCruise Widget](https://mentorcruise.com/mentor/ayansengupta/widget/)](https://mentorcruise.com/mentor/ayansengupta/)
+
+
 2024 - Present
 --------
 Co-founder and Chief Technology Officer (CTO) at [MyImmune](https://www.myimmune.ai/), where we harness Artificial Intelligence to revolutionize liquid biopsy technology, driving precision in medical diagnostics. MyImmune’s AI-powered platform leverages adaptive immune networks to decode the immune system, transforming biological data into actionable insights that accelerate diagnostics and therapeutic discovery.
