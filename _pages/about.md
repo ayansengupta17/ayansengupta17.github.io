@@ -4,11 +4,23 @@ title: "About me"
 excerpt: "About me"
 ---
 
-I am passionate about bringing machine learning to a practical level where it is a product that solves problems for people.
+2024 - Present
+--------
+Co-founder and Chief Technology Officer (CTO) at [MyImmune](https://www.myimmune.ai/), where we harness Artificial Intelligence to revolutionize liquid biopsy technology, driving precision in medical diagnostics. MyImmune’s AI-powered platform leverages adaptive immune networks to decode the immune system, transforming biological data into actionable insights that accelerate diagnostics and therapeutic discovery.
 
-2022 - Present
+To know more about our work, check out the following publications:
+- [Robust detection of infectious disease, autoimmunity, and cancer from the paratope networks of adaptive immune receptors](https://academic.oup.com/bib/article/25/5/bbae431/7748265?login=false)
+- [Deciphering the antigen specificities of antibodies by clustering their complementarity determining region sequences](https://journals.asm.org/doi/10.1128/msystems.00722-23)
+
+
+2023-2024
+---------
+I contributed to an AI startup, [Incubit](https://www.incubit.co.jp/) in Tokyo focused on enhancing productivity through innovative AI solutions. I led the development of [Tektome](https://tektome.com/), an LLM-driven architectural design tool that transforms raw design data from BIM, CAD, and architectural diagrams into structured, actionable insights. By automating and refining data pipelines, Tektome empowers architects and designers with a robust, tailored database for streamlined workflows.
+
+
+2022 - 2023
 --------------
-Currently I am working at an AI startup [Cogent Labs](https://www.cogent.co.jp/en/), whose primary goal is to power productivity with Artificial Intelligence. Cogent Labs has been in the list of <strong>LinkedIn Top Startups 2021</strong> for the three consecutive years. Currently my work is majorly focused in one of our top products called [SmartRead](https://smartread.jp/).
+I was part of the Machine Learning team at an AI startup [Cogent Labs](https://www.cogent.co.jp/en/), whose primary goal is to power productivity with Artificial Intelligence. Cogent Labs has been in the list of <strong>LinkedIn Top Startups 2021</strong> for the three consecutive years. My work was majorly focused in one of our top products called [SmartRead](https://smartread.jp/).
 
 To get a brief idea on our product, have a glance at the following video:
 

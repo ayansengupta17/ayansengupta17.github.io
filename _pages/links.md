@@ -21,6 +21,3 @@ For deadlines: [aideadlin](https://aideadlin.es/?sub=ML), [jackietseng](https://
 For acceptance rates: [lixin4ever](https://github.com/lixin4ever/Conference-Acceptance-Rate)
 
 For conference rating: [guide2research](https://www.guide2research.com/topconf/), [conferenceranks](http://www.conferenceranks.com/)
-
-
-
