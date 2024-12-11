@@ -5,6 +5,12 @@ author_profile: true
 ---
 
 
+2023
+----
+* [Product-Led Growth: How to Build a Product That Sells Itself](https://www.goodreads.com/en/book/show/46033247-product-led-growth) by Wes Bush
+* [The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses](https://www.goodreads.com/book/show/10127019-the-lean-startup) by Eric Ries
+
+
 2022
 ----
 * [No Red Lights](https://www.goodreads.com/book/show/59365385-no-red-lights) by Alan Patricof
