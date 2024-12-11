@@ -4,8 +4,6 @@ title: "About me"
 excerpt: "About me"
 ---
 
-[![MentorCruise Widget](https://mentorcruise.com/mentor/ayansengupta/widget/)](https://mentorcruise.com/mentor/ayansengupta/)
-
 
 2024 - Present
 --------
