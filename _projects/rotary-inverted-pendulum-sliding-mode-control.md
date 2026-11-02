@@ -3,6 +3,9 @@ title: "Design of Non-Linear Controller of Rotary Inverted Pendulum"
 excerpt: "In this project, we simulated a Sliding mode Controller for an Inverted
 Pendulum to control it in upright position"
 collection: projects
+redirect_from:
+  - /projects/projects-6/
+order: 11
 ---
 
 

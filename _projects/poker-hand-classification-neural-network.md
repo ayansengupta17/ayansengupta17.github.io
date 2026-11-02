@@ -7,6 +7,9 @@ header:
   image: /images/project-5/images/header.jpg
 collection: projects
 author_profile: true
+redirect_from:
+  - /projects/projects-5/
+order: 10
 ---
 
 <object data="/files/poker-hands-ann-report.pdf" type="application/pdf" width="700px" height="700px">

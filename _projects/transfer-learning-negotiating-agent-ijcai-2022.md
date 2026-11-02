@@ -5,6 +5,9 @@ header:
   teaser: /images/project-0w/images/header.png
   image: /images/project-0w/images/logo.png
 collection: projects
+redirect_from:
+  - /projects/projects-0w/
+order: 2
 ---
 
 
@@ -42,7 +45,7 @@ independent agents by 6%.
 --------------------------------
 1. Paper: [Link](https://www.ijcai.org/proceedings/2022/0067.pdf)
 
-2. Poster: [Link](http://ayansengupta17.github.io/images/project-0w/poster.pdf)
+2. Poster: [Link](/images/project-0w/poster.pdf)
 
 
 

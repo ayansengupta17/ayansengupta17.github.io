@@ -2,6 +2,9 @@
 title: "MyImmune: decoding the adaptive immune system with AI"
 excerpt: "Co-founded an Osaka University spin-out that turns T-cell and B-cell receptor repertoires from a blood sample into diagnostics, therapy-response predictions, and in silico antibody discovery (AbSapien)."
 collection: projects
+redirect_from:
+  - /projects/projects-00-myimmune/
+order: 1
 ---
 
 **What we build**

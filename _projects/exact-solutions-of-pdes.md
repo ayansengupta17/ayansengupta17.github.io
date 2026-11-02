@@ -6,6 +6,9 @@ header:
   image: /images/project-3/images/header.jpg
 collection: projects
 author_profile: true
+redirect_from:
+  - /projects/projects-3/
+order: 8
 ---
 
 * Implemented an algebraic solver for partial differential equations using Oberst-Riquier algorithm. The codes and documentation can be found in the project website.

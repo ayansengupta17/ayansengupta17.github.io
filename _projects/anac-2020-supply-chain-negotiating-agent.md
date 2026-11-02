@@ -5,6 +5,9 @@ header:
   teaser: /images/project-0x/images/header.png
   image: /images/project-0x/images/anac2020-logo.png
 collection: projects
+redirect_from:
+  - /projects/projects-0x/
+order: 3
 ---
 
 

@@ -13,12 +13,12 @@ Immunology and AI (MyImmune / Osaka University)
 
 Automated negotiation and reinforcement learning (NEC)
 -----
-* **Sengupta A**, Nakadai S, Mohammad Y. [Transfer Learning Based Adaptive Automated Negotiating Agent Framework](https://www.ijcai.org/proceedings/2022/0067.pdf). *IJCAI*, 2022. [Project page](/projects/projects-0w/)
-* **Sengupta A**, Mohammad Y, Nakadai S. [An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism](https://dl.acm.org/doi/10.5555/3463952.3464087). *AAMAS*, 2021. [Project page](/projects/projects-0z/)
+* **Sengupta A**, Nakadai S, Mohammad Y. [Transfer Learning Based Adaptive Automated Negotiating Agent Framework](https://www.ijcai.org/proceedings/2022/0067.pdf). *IJCAI*, 2022. [Project page](/projects/transfer-learning-negotiating-agent-ijcai-2022/)
+* **Sengupta A**, Mohammad Y, Nakadai S. [An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism](https://dl.acm.org/doi/10.5555/3463952.3464087). *AAMAS*, 2021. [Project page](/projects/rl-negotiating-agent-framework-aamas-2021/)
 
 Control theory and signal processing (IIT Bombay, IIEST)
 -----
-* **Sengupta A**, Pal D. Oberst-Riquier Based Generalised Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems. *SIAM Conference on Analysis of Partial Differential Equations (PD19)*, 2019. [Project page](/projects/projects-2x/)
+* **Sengupta A**, Pal D. Oberst-Riquier Based Generalised Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems. *SIAM Conference on Analysis of Partial Differential Equations (PD19)*, 2019. [Project page](/projects/trajectory-generation-infinite-dimensional-systems/)
 * Bandyopadhyay S, **Sengupta A**, Dhua D, Sen S. Uncertainty estimation of output of respiration monitoring system using Monte-Carlo simulations. *IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES)*, 2015.
 
 Full list and citation metrics on [Google Scholar](https://scholar.google.com/citations?user=llfoyOIAAAAJ).

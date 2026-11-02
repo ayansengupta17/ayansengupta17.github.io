@@ -93,7 +93,7 @@ Recent accomplishments:
 * [2022] Publication: [IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework](https://www.ijcai.org/proceedings/2022/0067.pdf)
 * [2022] Competition: [Japan Embassy Online Photo Competition](https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html)
 * [2021] Publication: [AAMAS 2021: An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism](https://dl.acm.org/doi/10.5555/3463952.3464087)
-* [2020] Competition: [ANAC 2020](https://ayansengupta17.github.io/projects/projects-0x/)
+* [2020] Competition: [ANAC 2020](/projects/anac-2020-supply-chain-negotiating-agent/)
 
 For more projects check out my [GitHub](https://github.com/ayansengupta17/) page.
 

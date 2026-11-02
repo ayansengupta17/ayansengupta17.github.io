@@ -6,6 +6,9 @@ header:
   image: /images/project-2x/images/header.png
 collection: projects
 author_profile: true
+redirect_from:
+  - /projects/projects-2x/
+order: 7
 ---
 
 **Abstract**

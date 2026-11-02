@@ -7,6 +7,9 @@ header:
   image: /images/project-4/header.gif
 collection: projects
 author_profile: true
+redirect_from:
+  - /projects/projects-4/
+order: 9
 ---
 
 

@@ -8,7 +8,8 @@ classes: wide
 ---
 
 <div class="entries-grid">
-{% for post in site.projects %}
+{% assign projects = site.projects | sort: "order" %}
+{% for post in projects %}
   {% include archive-single.html type="grid" %}
 {% endfor %}
 </div>

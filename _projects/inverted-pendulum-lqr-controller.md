@@ -6,6 +6,9 @@ header:
   teaser: /images/project-6/teaser.jpg
   image: /images/project-6/header.jpg
 collection: projects
+redirect_from:
+  - /projects/projects-7/
+order: 12
 ---
 
 # Inverted-Pendulum-Control

@@ -5,6 +5,9 @@ header:
   teaser: /images/project-0z/images/neg.png
   image: /images/project-0z/images/header.png
 collection: projects
+redirect_from:
+  - /projects/projects-0z/
+order: 4
 ---
 
 
