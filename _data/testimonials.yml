@@ -1,0 +1,130 @@
+# Reviews from mentees on MentorCruise. First names only, by choice.
+# Source: https://mentorcruise.com/mentor/ayansengupta/ (public profile).
+# To add one: append an entry below and push. Quotes are verbatim.
+
+summary:
+  rating: 5.0
+  count: 20
+  profile_url: https://mentorcruise.com/mentor/ayansengupta/
+  badges:
+    - Top Mentor
+    - Quick Responder
+  note: Ranked among the top 3% of mentors on MentorCruise
+
+reviews:
+  - name: Aizhan
+    service: Mentorship
+    plan: Lite Plan
+    duration: 7 months
+    date: 2026-08-10
+    rating: 5
+    quote: >-
+      Ayan has been an incredible mentor. Whenever I faced doubts or struggled with a decision,
+      he was there to listen, offer guidance, and help me think things through with clarity.
+      His support went beyond just answering questions; he genuinely invested in my growth.
+      Thanks to his mentorship, I now have a much clearer sense of the direction I want to move
+      in and the areas I need to improve. I feel more confident navigating my path forward, and
+      I'm deeply grateful for the time and insight he's shared with me.
+
+  - name: Llohann
+    service: Mentorship
+    plan: Lite Plan
+    duration: 1 year
+    date: 2024-12-18
+    rating: 5
+    quote: >-
+      Ayan has solid experience with Language models and was pivotal in helping me build my
+      confidence on the subject. He suggested new approaches to the problems I was facing and
+      gave me worth career advises. I am very thankful to him and I am stoping the mentorship
+      for the sole reason I have little time to implement the actions we come out in our
+      discussions.
+
+  - name: Llohann
+    service: Mentorship
+    plan: Lite Plan
+    rating: 5
+    quote: >-
+      Ayan has shared generously his experience. I'm glad I have chosen him as mentor. He has a
+      very clear idea both on the profissional and on the technical side. This mentorship had
+      been pivotal for building my expertise in Machine Learning, as a self-though data scientist.
+
+  - name: Piri
+    service: Resume review session
+    date: 2024-02-26
+    rating: 5
+    quote: >-
+      I booked a resume review session with Ayan. Ayan asked for my resume and already provided
+      feedback before the session throught the chat, and during the session we went over line by
+      line what could be change or improve. Ayan also asked questions to gain more information
+      what I can/could/should add to the resume. Ayan is very detailed and attentive, so I am
+      looking forward to meeting again next time!
+
+  - name: Vincent
+    service: Mentorship
+    plan: Lite Plan
+    duration: 4 months
+    date: 2023-12-07
+    rating: 5
+    quote: >-
+      It's a great opportunity to be mentored by Ayan, he gave me a great guidance for my job
+      search. But also great explanations and advices for advanced topics in my field.
+
+  - name: Moiez
+    service: Resume and interview session
+    date: 2023-12-04
+    rating: 5
+    quote: >-
+      I took a one-off meeting regarding my resume, and he went above and beyond in our 30-min
+      session. He was straight to the point, didn't waste any time at any moment and gave me
+      exactly what I needed and more regarding interviews, and job hunting.
+
+  - name: Sabah
+    service: Mentorship
+    plan: Lite Plan
+    duration: 4 months
+    date: 2023-10-08
+    rating: 5
+    quote: >-
+      Ayan is really knowledgeable and kind. He always goes the extra step to help out and makes
+      sure you understand the core concepts well. thank you Ayan :)
+
+  - name: Vishal
+    service: Mentorship
+    plan: Standard Plan
+    duration: 3 months
+    date: 2023-01-27
+    rating: 5
+    quote: >-
+      Ayan is an excellent mentor! He is mentoring me currently and I benefit from his insights
+      a lot.
+
+  - name: Zarrar
+    service: Mentorship
+    plan: Standard Plan
+    duration: 8 months
+    date: 2022-08-16
+    rating: 5
+    quote: >-
+      Ayan was a great mentor. He helped me through a course on RL I was taking and also on
+      developing my own RL related project. He was well connected with ongoing research and was
+      able to bring that to our meetings.
+
+  - name: Saurabh
+    service: Mentorship
+    plan: Standard Plan
+    duration: 5 months
+    date: 2022-03-28
+    rating: 5
+    quote: >-
+      On my machine learning journey I had been a mentee under Mr Ayan for 6 months. He is well
+      articulate, highly resourceful and expeditious with response. He was forthcoming with
+      offering help and suggestions as an when needed. Looking forward for many more sessions in
+      future!!
+
+  - name: Devesh
+    service: Mentorship
+    plan: Standard Plan
+    duration: 3 months
+    date: 2021-06-29
+    rating: 5
+    quote: He is really good and supportive.

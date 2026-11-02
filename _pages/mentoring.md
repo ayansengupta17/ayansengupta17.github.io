@@ -2,6 +2,7 @@
 title: "Mentoring"
 permalink: /mentoring/
 author_profile: true
+description: "Ayan Sengupta mentors engineers and founders on machine learning, LLMs, MLOps and AI products through MentorCruise. Rated 5.0 from 20 reviews."
 redirect_from:
   - /links/
   - /resume
@@ -13,6 +14,7 @@ I am a mentor at [MentorCruise](https://mentorcruise.com/mentor/ayansengupta/), 
 
 [![MentorCruise Widget](https://mentorcruise.com/mentor/ayansengupta/widget/)](https://mentorcruise.com/mentor/ayansengupta/)
 
+{% include testimonials.html %}
 
 Elsewhere
 -------
