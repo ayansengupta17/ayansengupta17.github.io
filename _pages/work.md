@@ -72,6 +72,12 @@ Education
 * M.Tech. in [Control and Computing](https://www.ee.iitb.ac.in/~ccgroup/), Indian Institute of Technology Bombay (2016-2019)
 * B.E. in Electrical Engineering, Indian Institute of Engineering Science and Technology, Shibpur (previously BESU, Shibpur) (2011-2015)
 
+Affiliations
+-----
+* Member, [IIT Bombay Alumni Association, Japan Chapter](https://www.iitbombay.org/chapter/japan-chapter)
+* Accelerator Fellow, Okinawa Institute of Science and Technology (OIST) Innovation Accelerator (2026 - Present)
+* Mentor, [MentorCruise](https://mentorcruise.com/mentor/ayansengupta/)
+
 
 
 Courses
