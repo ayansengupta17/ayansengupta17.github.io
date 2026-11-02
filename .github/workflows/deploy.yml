@@ -26,9 +26,14 @@ jobs:
         env:
           JEKYLL_ENV: production
 
-      - name: Deploy worker and assets
-        uses: cloudflare/wrangler-action@v3
+      - uses: actions/setup-node@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: b51834bd5017bb543edecfa55470f656
-          command: deploy
+          node-version: "22"
+
+      - name: Deploy worker and assets
+        run: |
+          npm install --no-save --no-audit --no-fund wrangler@4.156.1
+          npx --no-install wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: b51834bd5017bb543edecfa55470f656
