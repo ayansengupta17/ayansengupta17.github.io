@@ -4,6 +4,7 @@ permalink: /work/
 redirect_from:
   - /background/
 author_profile: true
+excerpt: "Career of Ayan Sengupta: CEO and former CTO of MyImmune, AI lead at Tokyo startups, reinforcement learning research at NEC, and control theory at IIT Bombay."
 ---
 
 Interest

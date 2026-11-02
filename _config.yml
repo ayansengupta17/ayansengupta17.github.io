@@ -36,8 +36,8 @@ bing_site_verification   :
 # Social sharing
 twitter:
   username               :
-og_image                 : "/images/me.jpg"
-og_image_alt             : "Portrait of Ayan Sengupta"
+og_image                 : "/images/og-image.jpg"
+og_image_alt             : "Ayan Sengupta, Co-Founder and CEO of MyImmune"
 social:
   type                   : Person
   name                   : "Ayan Sengupta"

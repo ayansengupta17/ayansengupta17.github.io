@@ -4,6 +4,7 @@ permalink: /hobbies/
 header:
   image: /images/hobbies/wallpaper.jpg
 author_profile: true
+excerpt: "Outside work: photography, design, and the student magazine Ayan Sengupta edited and designed."
 ---
 # 2019
 <br>

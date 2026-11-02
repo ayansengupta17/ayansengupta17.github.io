@@ -1,0 +1,75 @@
+# Publications. Rendered by _includes/publications.html as the list on /publications/
+# and as schema.org ScholarlyArticle JSON-LD. Author names are "Surname Initials";
+# the site owner is matched by `me` below and shown in bold.
+me: "Sengupta A"
+scholar_url: https://scholar.google.com/citations?user=llfoyOIAAAAJ
+
+groups:
+  - heading: Immunology and AI (MyImmune / Osaka University)
+    items:
+      - title: A germline shortcut in protein language model retrieval of adaptive immune receptors
+        authors: [Wang S, Sengupta A, Li S, Standley DM]
+        venue: bioRxiv
+        type: preprint
+        year: 2026
+        url: https://www.biorxiv.org/content/10.64898/2026.07.21.739963v1
+        doi: 10.64898/2026.07.21.739963
+      - title: Stratification of immunotherapy responses by adaptive immune receptor repertoires
+        authors: [Biró B, Llamas-Covarrubias MA, Sengupta A, Standley DM]
+        venue: Trends in Molecular Medicine
+        volume: "32"
+        issue: "8"
+        pages: 761-777
+        type: journal
+        year: 2026
+        url: https://doi.org/10.1016/j.molmed.2025.12.007
+        doi: 10.1016/j.molmed.2025.12.007
+      - title: Accurate and scalable multi-disease classification from adaptive immune repertoires
+        authors: [Jiravejchakul N, Sengupta A, Li S, Upadhyaya D, Llamas-Covarrubias MA, Hauer F, Haruna S, Standley DM]
+        venue: bioRxiv
+        type: preprint
+        year: 2025
+        url: https://doi.org/10.1101/2025.08.12.669991
+        doi: 10.1101/2025.08.12.669991
+      - title: Robust detection of infectious disease, autoimmunity, and cancer from the paratope networks of adaptive immune receptors
+        authors: [Xu Z, Ismanto HS, Saputri DS, Haruna S, Sun G, Wilamowski J, Teraguchi S, Sengupta A, Li S, Standley DM]
+        venue: Briefings in Bioinformatics
+        volume: "25"
+        issue: "5"
+        type: journal
+        year: 2024
+        url: https://doi.org/10.1093/bib/bbae431
+        doi: 10.1093/bib/bbae431
+
+  - heading: Automated negotiation and reinforcement learning (NEC)
+    items:
+      - title: Transfer Learning Based Adaptive Automated Negotiating Agent Framework
+        authors: [Sengupta A, Nakadai S, Mohammad Y]
+        venue: IJCAI
+        venue_long: Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence
+        type: conference
+        year: 2022
+        url: https://www.ijcai.org/proceedings/2022/0067.pdf
+        project: /projects/transfer-learning-negotiating-agent-ijcai-2022/
+      - title: An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism
+        authors: [Sengupta A, Mohammad Y, Nakadai S]
+        venue: AAMAS
+        venue_long: Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
+        type: conference
+        year: 2021
+        url: https://dl.acm.org/doi/10.5555/3463952.3464087
+        project: /projects/rl-negotiating-agent-framework-aamas-2021/
+
+  - heading: Control theory and signal processing (IIT Bombay, IIEST)
+    items:
+      - title: Oberst-Riquier Based Generalised Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems
+        authors: [Sengupta A, Pal D]
+        venue: SIAM Conference on Analysis of Partial Differential Equations (PD19)
+        type: conference
+        year: 2019
+        project: /projects/trajectory-generation-infinite-dimensional-systems/
+      - title: Uncertainty estimation of output of respiration monitoring system using Monte-Carlo simulations
+        authors: [Bandyopadhyay S, Sengupta A, Dhua D, Sen S]
+        venue: IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES)
+        type: conference
+        year: 2015

@@ -4,12 +4,17 @@
  * - Serves the Jekyll build in _site/ as static assets.
  * - Content negotiation: `Accept: text/markdown` returns the Markdown twin that
  *   _plugins/markdown_for_agents.rb writes next to each page (index.html -> index.md).
+ * - Advertises the Markdown twin with a `Link: <...>; rel="alternate"` header on HTML.
  * - Adds Content-Signal and security headers to every response.
+ * - Long cache lifetimes for static assets; HTML and Markdown always revalidate.
  * - Redirects www to the apex.
  */
 
 const CONTENT_SIGNAL = "search=yes, ai-input=yes, ai-train=no";
 const APEX = "ayansengupta.dev";
+const STATIC_ASSET = /\.(css|js|mjs|png|jpe?g|gif|svg|webp|avif|ico|pdf|mp4|webm|woff2?|ttf|otf)$/i;
+const ASSET_CACHE = "public, max-age=604800, stale-while-revalidate=86400";
+const PAGE_CACHE = "public, max-age=0, must-revalidate";
 
 /** Parse an Accept header into [{type, q}] */
 function parseAccept(accept) {
@@ -84,7 +89,11 @@ export default {
         const mdUrl = new URL(mdPath, url);
         const mdRes = await env.ASSETS.fetch(new Request(mdUrl.toString(), { method, headers: request.headers }));
         if (mdRes.ok) {
-          const out = withHeaders(mdRes, { "Content-Type": "text/markdown; charset=utf-8" });
+          const out = withHeaders(mdRes, {
+            "Content-Type": "text/markdown; charset=utf-8",
+            "Cache-Control": PAGE_CACHE,
+            Link: `<${url.origin}${url.pathname}>; rel="canonical"; type="text/html"`,
+          });
           appendVary(out.headers, "Accept");
           return out;
         }
@@ -94,8 +103,19 @@ export default {
     const res = await env.ASSETS.fetch(request);
     const out = withHeaders(res);
     const ct = out.headers.get("Content-Type") || "";
-    if (ct.includes("text/html")) appendVary(out.headers, "Accept");
-    if (url.pathname.endsWith(".md")) out.headers.set("Content-Type", "text/markdown; charset=utf-8");
+    const path = url.pathname;
+
+    if (ct.includes("text/html")) {
+      appendVary(out.headers, "Accept");
+      out.headers.set("Cache-Control", PAGE_CACHE);
+      const mdPath = res.ok ? markdownPath(path) : null;
+      if (mdPath) out.headers.set("Link", `<${url.origin}${mdPath}>; rel="alternate"; type="text/markdown"`);
+    } else if (path.endsWith(".md")) {
+      out.headers.set("Content-Type", "text/markdown; charset=utf-8");
+      out.headers.set("Cache-Control", PAGE_CACHE);
+    } else if (res.ok && STATIC_ASSET.test(path)) {
+      out.headers.set("Cache-Control", ASSET_CACHE);
+    }
     return out;
   },
 };

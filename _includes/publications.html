@@ -1,0 +1,63 @@
+{%- assign pubs = site.data.publications -%}
+{%- for g in pubs.groups %}
+<h2 id="{{ g.heading | slugify }}">{{ g.heading }}</h2>
+<ul class="publications">
+  {%- for p in g.items %}
+  <li class="publication">
+    {%- for a in p.authors -%}
+      {%- if a == pubs.me %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif -%}
+      {%- unless forloop.last %}, {% endunless -%}
+    {%- endfor %}.
+    {% if p.url %}<a href="{{ p.url }}" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}.
+    <em>{{ p.venue }}</em>{% if p.volume %} {{ p.volume }}{% if p.issue %}({{ p.issue }}){% endif %}{% endif %}{% if p.pages %}:{{ p.pages }}{% endif %}, {{ p.year }}.
+    {%- if p.project %} <a href="{{ p.project }}">Project page</a>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
+
+<p>Full list and citation metrics on <a href="{{ pubs.scholar_url }}" rel="noopener">Google Scholar</a>.</p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {%- assign n = 0 -%}
+    {%- for g in pubs.groups -%}
+    {%- for p in g.items -%}
+    {%- if n > 0 %},{% endif -%}
+    {%- assign n = n | plus: 1 %}
+    {
+      "@type": "ScholarlyArticle",
+      "headline": {{ p.title | jsonify }},
+      "name": {{ p.title | jsonify }},
+      "author": [
+        {%- for a in p.authors -%}
+        { "@type": "Person", "name": {{ a | jsonify }}{% if a == pubs.me %}, "url": "{{ site.url }}/", "sameAs": {{ pubs.scholar_url | jsonify }}{% endif %} }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "datePublished": "{{ p.year }}",
+      {%- if p.doi %}
+      "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ p.doi | jsonify }} },
+      "sameAs": "https://doi.org/{{ p.doi }}",
+      {%- endif %}
+      {%- if p.url %}
+      "url": {{ p.url | jsonify }},
+      {%- endif %}
+      {%- if p.type == "journal" %}
+      "isPartOf": { "@type": "Periodical", "name": {{ p.venue | jsonify }}{% if p.volume %}, "volumeNumber": {{ p.volume | jsonify }}{% endif %}{% if p.issue %}, "issueNumber": {{ p.issue | jsonify }}{% endif %} },
+      {%- if p.pages %}
+      "pagination": {{ p.pages | jsonify }},
+      {%- endif %}
+      {%- elsif p.type == "conference" %}
+      "isPartOf": { "@type": "PublicationEvent", "name": {{ p.venue_long | default: p.venue | jsonify }} },
+      {%- else %}
+      "publisher": { "@type": "Organization", "name": {{ p.venue | jsonify }} },
+      {%- endif %}
+      "mainEntityOfPage": "{{ page.url | absolute_url }}"
+    }
+    {%- endfor -%}
+    {%- endfor %}
+  ]
+}
+</script>

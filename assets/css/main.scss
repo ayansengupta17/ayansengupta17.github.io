@@ -122,3 +122,97 @@ html {
     height: auto;
   }
 }
+
+/* ==========================================================================
+   Dark mode: follows the OS setting. The "air" skin is light-only, so the
+   colours from the theme's "dark" skin are applied here as overrides.
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+  $d-bg: #252a34;
+  $d-bg-deep: #1f232c;
+  $d-text: #eaeaea;
+  $d-muted: #b4b9c2;
+  $d-primary: #3fc1cc;
+  $d-link: #7fd6dd;
+  $d-link-hover: #a9e5ea;
+  $d-border: #4c515a;
+
+  html { background-color: $d-bg; }
+  body { color: $d-text; }
+  h1, h2, h3, h4, h5, h6, .page__title, .archive__item-title { color: $d-text; }
+  .page .page__title, .page__title a, .archive__item-title a { color: $d-text !important; }
+  a { color: $d-link; }
+  a:visited { color: $d-link; }
+  a:hover, a:focus { color: $d-link-hover; }
+  hr { border-color: $d-border; }
+  blockquote { color: $d-muted; border-left-color: $d-primary; }
+  ::selection { background: $d-primary; color: $d-bg; }
+
+  /* Masthead and navigation */
+  .masthead { background-color: $d-bg; border-bottom-color: $d-border; }
+  .masthead__menu-item a, .site-title, .site-subtitle, .greedy-nav a { color: $d-text; }
+  .greedy-nav, .greedy-nav .hidden-links { background: $d-bg; border-color: $d-border; }
+  .greedy-nav .visible-links a:before { background: $d-primary; }
+  .greedy-nav .hidden-links:before { border-color: transparent transparent $d-border transparent; }
+  .greedy-nav .hidden-links:after { border-color: transparent transparent $d-bg transparent; }
+  .greedy-nav button { background: transparent; color: $d-primary; }
+  .greedy-nav .navicon, .greedy-nav .navicon:before, .greedy-nav .navicon:after { background: $d-primary; }
+  .greedy-nav .search__toggle, .search__toggle { background: transparent; color: $d-primary; }
+  .search-content { background: $d-bg; }
+  .search-content .search-input { color: $d-text; background: transparent; border-bottom-color: $d-border; }
+  .search-content .archive__item-title a, .search-content .archive__item-excerpt { color: $d-text; }
+  .breadcrumbs ol, .toc { background-color: $d-bg-deep; border-color: $d-border; color: $d-muted; }
+  .toc__menu a { color: $d-text; border-bottom-color: $d-border; }
+
+  /* Sidebar / author profile */
+  .sidebar, .author__name, .author__bio, .author__content { color: $d-text; }
+  .author__avatar img { border-color: $d-border; }
+  .author__urls a, .author__urls li { color: $d-text; }
+  .author__urls li i, .author__urls li .svg-inline--fa, .author__urls.social-icons i, .author__urls.social-icons .svg-inline--fa { color: $d-muted; }
+  .author__urls .fa-github, .social-icons .fa-github { color: $d-text; }
+  @media (max-width: 1023px) {
+    .author__urls { background-color: $d-bg-deep; border-color: $d-border; }
+    .author__urls:before { border-color: transparent transparent $d-border transparent; }
+    .author__urls:after { border-color: transparent transparent $d-bg-deep transparent; }
+  }
+  .author__urls-wrapper .btn { background-color: $d-bg-deep; color: $d-text; border: 1px solid $d-border; }
+  .page__meta, .page__date, .archive__subtitle, .taxonomy__title, .page__meta-readtime { color: $d-muted; }
+  .archive__subtitle { border-bottom-color: $d-border; }
+
+  /* Content */
+  .page__content, .archive__item-excerpt { color: $d-text; }
+  .page__content :not(pre) > code { background: $d-bg-deep; color: $d-text; }
+  pre, .highlight, .highlight pre, .highlighter-rouge .highlight { background: $d-bg-deep; color: $d-text; }
+  .highlight table td.gutter, .highlight table td.rouge-gutter { color: $d-muted; border-inline-end-color: $d-border; }
+  table { color: $d-text; }
+  th, td { border-bottom-color: $d-border; }
+  thead { background-color: $d-bg-deep; border-bottom-color: $d-border; }
+  tr:nth-child(even) { background-color: rgba(255, 255, 255, 0.03); }
+  kbd { background: $d-bg-deep; color: $d-text; border-color: $d-border; }
+  .notice, .notice--primary, .notice--info, .notice--warning, .notice--success, .notice--danger,
+  .markdown-alert { background-color: $d-bg-deep !important; color: $d-text !important; border-color: $d-border !important; }
+  .btn--primary, .btn--primary:visited { background-color: $d-primary; color: $d-bg; }
+  .btn--primary:hover { background-color: $d-link-hover; color: $d-bg; }
+  .btn--inverse { background-color: $d-bg-deep; color: $d-text; border-color: $d-border; }
+  .page__taxonomy-item { background: $d-bg-deep; color: $d-text; border-color: $d-border; }
+  .page__hero-caption { background: $d-bg-deep; color: $d-text; }
+  .archive__item-teaser { background: $d-bg-deep; }
+  .archive__item-teaser img { opacity: 0.92; }
+  .pagination li a { border-color: $d-border; color: $d-text; }
+  .pagination li a.current { background: $d-primary; color: $d-bg; }
+  .page__share .btn { color: $d-text; }
+  input[type="text"], input[type="search"], textarea, select { background: $d-bg-deep; color: $d-text; border-color: $d-border; }
+
+  /* Footer */
+  .page__footer { background-color: $d-bg-deep; color: $d-muted; }
+  .page__footer a, .page__footer-copyright { color: $d-muted; }
+  .page__footer-follow .social-icons a { color: $d-text; }
+
+  /* Site-specific blocks */
+  .testimonials__summary, .testimonial__quote, .testimonial__name { color: $d-text; }
+  .testimonials__badge { background: rgba($d-primary, 0.18); color: $d-primary; }
+  .testimonial { background: rgba(255, 255, 255, 0.04); border-color: $d-border; }
+  .testimonial__quote::before { color: $d-primary; }
+  .testimonial__meta { color: $d-muted; }
+  .mentorcruise-widget img { border-radius: 8px; }
+}

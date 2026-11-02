@@ -1,0 +1,42 @@
+{%- comment -%}
+Overrides the theme's schema.html with a fuller Person entity. The theme only emits
+name, url and sameAs; this adds role, employer, image, education, topics and contact.
+{%- endcomment -%}
+{%- assign links = site.social.links | default: empty -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ '/' | absolute_url }}#person",
+  "name": {{ site.author.name | jsonify }},
+  "givenName": "Ayan",
+  "familyName": "Sengupta",
+  "url": {{ '/' | absolute_url | jsonify }},
+  "image": {{ '/images/me.jpg' | absolute_url | jsonify }},
+  "email": "mailto:{{ site.author.email }}",
+  "jobTitle": "Co-Founder and Chief Executive Officer",
+  "description": {{ site.description | jsonify }},
+  "worksFor": {
+    "@type": "Organization",
+    "name": "MyImmune",
+    "url": "https://www.myimmune.ai/",
+    "description": "Osaka University spin-out using AI to decode adaptive immune receptor repertoires for diagnostics, therapy-response prediction and in silico antibody discovery."
+  },
+  "address": { "@type": "PostalAddress", "addressLocality": "Tokyo", "addressCountry": "JP" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Indian Institute of Technology Bombay" },
+    { "@type": "CollegeOrUniversity", "name": "Indian Institute of Engineering Science and Technology, Shibpur" }
+  ],
+  "knowsAbout": [
+    "Machine learning", "Large language models", "Reinforcement learning", "Computational immunology",
+    "Adaptive immune receptor repertoires", "Antibody discovery", "MLOps", "Control theory", "Automated negotiation"
+  ],
+  "hasOccupation": { "@type": "Occupation", "name": "Chief Executive Officer" },
+  "sameAs": [
+    {%- for l in links %}
+    {{ l | jsonify }},
+    {%- endfor %}
+    "https://mentorcruise.com/mentor/ayansengupta/"
+  ]
+}
+</script>

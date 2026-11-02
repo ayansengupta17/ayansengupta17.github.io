@@ -21,7 +21,7 @@ This project is a part of the control and computing lab project for IIT Bombay. 
 ## Breif details about setup
 
 For this project we used a rotary inverted pendulum kit by Quanser.
-![Inverted pendulum kit](/images/project-6/ped.png)
+![Inverted pendulum kit](/images/project-6/ped.jpg)
 
  Arduino Mega was used for the control of the DC Motor voltage.
 ![Arduino Mega](/images/project-6/mega.png)
@@ -33,5 +33,5 @@ The encoder datasheet can be found here: [Avago Encoder](/images/project-6/AV02-
 
 ## Demo
 
-![Demo](/images/project-6/demo.gif)
+<video src="/images/project-6/demo.mp4" autoplay loop muted playsinline width="312" height="480" aria-label="Demo of the balancing inverted pendulum"></video>
 

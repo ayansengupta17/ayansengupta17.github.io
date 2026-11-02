@@ -4,6 +4,7 @@ permalink: /extras/
 header:
   image: /images/extras_header.jpg
 author_profile: true
+excerpt: "Smaller scripts, workshops, talks and web work by Ayan Sengupta."
 ---
 
 
