@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Calmer base font sizes. The theme defaults scale 16 → 18 → 20 → 22px with viewport width. */
+html {
+  font-size: 16px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 17px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 18px;
+  }
+}
