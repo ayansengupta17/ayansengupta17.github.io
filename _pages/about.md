@@ -92,6 +92,7 @@ Recent accomplishments:
 * [2024] Publication: [Briefings in Bioinformatics: Robust detection of infectious disease, autoimmunity, and cancer from the paratope networks of adaptive immune receptors](https://doi.org/10.1093/bib/bbae431)
 * [2022] Publication: [IJCAI 2022: Transfer Learning Based Adaptive Automated Negotiating Agent Framework](https://www.ijcai.org/proceedings/2022/0067.pdf)
 * [2022] Competition: [Japan Embassy Online Photo Competition](https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html)
+* [2022] Award: Silver Medal, NRI category, in the Azadi Ka Amrit Mahotsav (AKAM) Quiz organised by the Ministry of External Affairs, Government of India
 * [2021] Publication: [AAMAS 2021: An Autonomous Negotiating Agent Framework with Reinforcement Learning based Strategies and Adaptive Strategy Switching Mechanism](https://dl.acm.org/doi/10.5555/3463952.3464087)
 * [2020] Competition: [ANAC 2020](/projects/anac-2020-supply-chain-negotiating-agent/)
 
