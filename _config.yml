@@ -16,7 +16,7 @@ locale                   : "en-US"
 title                    : "Ayan Sengupta"
 title_separator          : "-"
 name                     : &name "Ayan Sengupta"
-description              : &description "A personal blog of  Ayan Sengupta"
+description              : &description "Ayan Sengupta - Co-Founder & CEO of MyImmune, AI for immunology, diagnostics and antibody discovery"
 url                      : "https://ayansengupta17.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "ayansengupta17.github.io"
@@ -60,9 +60,12 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-universal # false (default), "google", "google-universal", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-136087327-2
+    # GA4 Measurement ID, looks like G-XXXXXXXXXX (Google Analytics > Admin > Data Streams > your web stream).
+    # The old Universal Analytics ID UA-136087327-2 stopped collecting data in July 2023.
+    # Leave empty to disable tracking.
+    tracking_id          : G-J2MQNKHSKE
 
 # Google AdSense
 google_ad_client         :
@@ -73,7 +76,7 @@ google_ad_slot           :
 author:
   name             : "Ayan Sengupta"
   avatar           : "me.jpg"
-  bio              : "Co-Founder & CTO MyImmune | Tokyo | IIT Bombay | Top Mentor @ Mentorcruise"
+  bio              : "Co-Founder & CEO MyImmune | Tokyo | IIT Bombay | Top Mentor @ Mentorcruise"
   location         : "Tokyo, Japan"
   email            : "ayansengupta17@gmail.com"
   uri              :
@@ -109,7 +112,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: flase
+      comments: false
       share: true
       related: true
   # _pages
@@ -159,6 +162,9 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - vendor
+  - .bundle
+  - Gemfile.lock
 keep_files:
   - .git
   - .svn

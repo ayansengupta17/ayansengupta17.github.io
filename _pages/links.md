@@ -8,9 +8,15 @@ redirect_from:
 
 {% include base_path %}
 
+MyImmune
+-------
+* [MyImmune website](https://www.myimmune.ai/)
+* [Google Scholar](https://scholar.google.com/citations?user=llfoyOIAAAAJ)
+* [LinkedIn](https://www.linkedin.com/in/ayansengupta17/)
+
 Resume
 -------
-My resume: [Resume (2020)](http://ayansengupta17.github.io/files/cv.pdf).
+My resume: [Resume (2023)](/files/cv.pdf).
 
 
 Mentoring

@@ -13,7 +13,9 @@ author_profile: true
 Discussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.
 So we are working on tools to help improve online public conversation. One area of focus is the study of negative online behaviours, like toxic comments (i.e. comments that are rude, disrespectful or otherwise likely to make someone leave a discussion). So we are trying to detect different types of toxic comments. We are using a dataset of comments from Wikipedia’s talk page edits. Hopefully, this will help online discussion become more productive and respectful.
 ### Quickstart:
-A basic comment classification model has been designed and currently hosted in Heroku's free servers. Currently, two methods are available for the testing and usage of the model.
+A basic comment classification model was designed and hosted on Heroku's free servers. Two methods were available for testing and using the model.
+
+> **Note:** Heroku discontinued its free tier in November 2022, so the live demo and API below are no longer online. The screenshots are kept for reference.
 
 * **Web interface**: A web interface for our model is hosted in Heroku and an example is shown below. One can query a text in the search field and the result would be shown there only. Integration of this with other platforms is not the goal for this setup. It is only for a demonstration and testing purpose. For integrating with varied platforms, we have a simple API structure that will ease integration. Check out the web interface at [link](https://comclassify.herokuapp.com/handle_data)
 ![web interface](/images/project-4/images/2.png "https://comclassify.herokuapp.com/handle_data")
@@ -34,9 +36,3 @@ The model gives outputs in probabilities of toxicity level. Depending upon those
 Special caution has been taken such that a safe and non-toxic comment are not classified in the red zone. But on rare occasions, some text with offensive words may get a leeway and land up in the green zone.
 
 Further in future, the actual probabilities for each query will be provided to the platforms who will use our model. In that case, the platforms will have an extra benefit of customizing the classification of sentences in their own ways.
-
-
-**NOTE**:
-Since free servers of Heroku platforms are currently in use, multiple queries may take time for processing.
-
-
