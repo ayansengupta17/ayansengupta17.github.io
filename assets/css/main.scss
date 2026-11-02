@@ -123,11 +123,28 @@ html {
   }
 }
 
+/* Light/dark toggle button in the masthead (markup in _includes/masthead.html) */
+.theme-toggle {
+  margin-inline: 0.5rem;
+  height: 2rem;
+  border: 0;
+  outline: none;
+  color: $primary-color;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1em;
+
+  &:focus { outline: none; box-shadow: none; }
+  &:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; border-radius: 4px; }
+  .theme-toggle__icon--dark { display: none; }
+}
+
 /* ==========================================================================
-   Dark mode: follows the OS setting. The "air" skin is light-only, so the
-   colours from the theme's "dark" skin are applied here as overrides.
+   Dark mode: opt-in via the masthead toggle, which sets data-theme="dark" on
+   <html> and remembers it in localStorage. Light stays the default. The "air"
+   skin is light-only, so the theme's "dark" skin colours are applied here.
    ========================================================================== */
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   $d-bg: #252a34;
   $d-bg-deep: #1f232c;
   $d-text: #eaeaea;
@@ -137,7 +154,7 @@ html {
   $d-link-hover: #a9e5ea;
   $d-border: #4c515a;
 
-  html { background-color: $d-bg; }
+  & { background-color: $d-bg; color-scheme: dark; }
   body { color: $d-text; }
   h1, h2, h3, h4, h5, h6, .page__title, .archive__item-title { color: $d-text; }
   .page .page__title, .page__title a, .archive__item-title a { color: $d-text !important; }
@@ -151,6 +168,10 @@ html {
   /* Masthead and navigation */
   .masthead { background-color: $d-bg; border-bottom-color: $d-border; }
   .masthead__menu-item a, .site-title, .site-subtitle, .greedy-nav a { color: $d-text; }
+  .greedy-nav a:hover, .greedy-nav a:focus, .masthead__menu-item a:hover, .site-title:hover { color: $d-link-hover; }
+  .theme-toggle { color: $d-primary; }
+  .theme-toggle__icon--light { display: none; }
+  .theme-toggle__icon--dark { display: inline; }
   .greedy-nav, .greedy-nav .hidden-links { background: $d-bg; border-color: $d-border; }
   .greedy-nav .visible-links a:before { background: $d-primary; }
   .greedy-nav .hidden-links:before { border-color: transparent transparent $d-border transparent; }

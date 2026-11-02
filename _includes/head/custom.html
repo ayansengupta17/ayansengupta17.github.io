@@ -4,3 +4,7 @@
 <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
 <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 <meta name="theme-color" content="#0092ca">
+<script>
+  /* Apply the remembered colour scheme before first paint. Light is the default. */
+  (function () { try { if (localStorage.getItem("theme") === "dark") { document.documentElement.setAttribute("data-theme", "dark"); } } catch (e) {} })();
+</script>

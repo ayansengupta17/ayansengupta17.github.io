@@ -12,8 +12,10 @@
 
 const CONTENT_SIGNAL = "search=yes, ai-input=yes, ai-train=no";
 const APEX = "ayansengupta.dev";
-const STATIC_ASSET = /\.(css|js|mjs|png|jpe?g|gif|svg|webp|avif|ico|pdf|mp4|webm|woff2?|ttf|otf)$/i;
+const STATIC_ASSET = /\.(png|jpe?g|gif|svg|webp|avif|ico|pdf|mp4|webm|woff2?|ttf|otf)$/i;
+const CODE_ASSET = /\.(css|js|mjs)$/i; // not fingerprinted, so keep these short
 const ASSET_CACHE = "public, max-age=604800, stale-while-revalidate=86400";
+const CODE_CACHE = "public, max-age=3600, stale-while-revalidate=600";
 const PAGE_CACHE = "public, max-age=0, must-revalidate";
 
 /** Parse an Accept header into [{type, q}] */
@@ -113,6 +115,8 @@ export default {
     } else if (path.endsWith(".md")) {
       out.headers.set("Content-Type", "text/markdown; charset=utf-8");
       out.headers.set("Cache-Control", PAGE_CACHE);
+    } else if (res.ok && CODE_ASSET.test(path)) {
+      out.headers.set("Cache-Control", CODE_CACHE);
     } else if (res.ok && STATIC_ASSET.test(path)) {
       out.headers.set("Cache-Control", ASSET_CACHE);
     }
