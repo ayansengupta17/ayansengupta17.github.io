@@ -137,6 +137,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed
+  quiet_deps: true
 
 # Outputting
 permalink: /:categories/:title/
@@ -148,7 +149,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Plugins (whitelisted by GitHub Pages)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -159,15 +160,6 @@ plugins:
   - jekyll-remote-theme
   - jemoji
 
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-redirect-from
-  - jekyll-remote-theme
-  - jemoji
 
 # Defaults
 defaults:
