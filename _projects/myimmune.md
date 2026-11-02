@@ -25,6 +25,7 @@ I co-founded the company in June 2024 with Prof. Daron Standley (Research Instit
 -----
 * Pre-seed round led by Osaka University Venture Capital, October 2024.
 * Inaugural cohort, Clinical Incubator at Charité (Berlin Institute of Health), July 2025.
+* [MassChallenge 2026 Traction Program](https://masschallenge.org/news/smoreworks-and-masschallenge-advance-select-startups-into-2026-traction-program/) (Boston and Dallas), selected from the s'more works x MassChallenge Constellation cohort, April 2026.
 * OIST Innovation Accelerator Program, Okinawa, September 2026.
 
 **Papers**

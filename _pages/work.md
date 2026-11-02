@@ -22,7 +22,7 @@ Work Experience
 * Co-founder and Chief Technology Officer (June 2024 - June 2026)
     * Co-founded an Osaka University spin-out with Prof. Daron Standley and Dr. Florian Hauer that decodes adaptive immune receptor repertoires from a blood sample for diagnostics, therapy response prediction, and in silico antibody discovery ([AbSapien](https://www.myimmune.ai/)). [Website](https://www.myimmune.ai/)
     * Built the AI and engineering platform behind the FACTS multi-disease classifier (mean ROC AUC 0.99 across 16 disease classes from 81 million T- and B-cell receptor sequences). [Preprint](https://doi.org/10.1101/2025.08.12.669991)
-    * Raised a pre-seed round led by Osaka University Venture Capital (Oct 2024); joined the Clinical Incubator at Charité, Berlin (Jul 2025) and the OIST Innovation Accelerator, Okinawa (Sep 2026).
+    * Raised a pre-seed round led by Osaka University Venture Capital (Oct 2024); joined the Clinical Incubator at Charité, Berlin (Jul 2025), MassChallenge's 2026 Traction Program, Boston and Dallas (Apr 2026), and the OIST Innovation Accelerator, Okinawa (Sep 2026).
     * Accelerator Fellow, Okinawa Institute of Science and Technology (2026 - Present).
 
 

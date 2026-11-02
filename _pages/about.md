@@ -17,6 +17,7 @@ MyImmune translates adaptive immune receptor repertoires (T-cell and B-cell rece
 
 * [Sep 2026] Selected for the [OIST Innovation Accelerator Program](https://www.oist.jp/news-center/news/2026/9/15/four-deep-tech-startups-selected-around-world-begin-new-ventures-okinawa) in Okinawa, where I am an Accelerator Fellow at the Okinawa Institute of Science and Technology.
 * [Jul 2026] Presented AbSapien at [KOZAROCKS 2026](https://kozarocks2026.koza.rocks/pitch-award/en), Okinawa.
+* [Apr 2026] Selected from the s'more works x MassChallenge Constellation cohort (Japan) into [MassChallenge's 2026 Traction Program](https://masschallenge.org/news/smoreworks-and-masschallenge-advance-select-startups-into-2026-traction-program/), with programming in Boston and Dallas.
 * [Jul 2025] Joined the inaugural cohort of the [Clinical Incubator at Charité (CLIC)](https://www.bihealth.org/en/notices/opening-of-the-bih-clinical-incubator), Berlin Institute of Health.
 * [Dec 2024] Presented at the [Osaka University DeepTech Showcase](https://www.usajapan.org/event/osaka-university-deeptech-showcase/), Japan Innovation Campus, Palo Alto.
 * [Oct 2024] Closed a pre-seed round led by [Osaka University Venture Capital (OUVC)](https://blog.ouvc.co.jp/en/topics/241023-0). [Press release](https://www.openpr.com/news/3705361/myimmune-secures-pre-seed-investment-to-accelerate)
@@ -83,7 +84,7 @@ of Technology Bombay. My major interests are in the domain of data science, mach
 Recent accomplishments:
 -----------------------
 
-* [2026] Appointed CEO of MyImmune (Jun 2026); selected for the OIST Innovation Accelerator Program (Sep 2026)
+* [2026] Appointed CEO of MyImmune (Jun 2026); MyImmune selected for [MassChallenge's 2026 Traction Program](https://masschallenge.org/news/smoreworks-and-masschallenge-advance-select-startups-into-2026-traction-program/) (Apr 2026) and the OIST Innovation Accelerator Program (Sep 2026)
 * [2026] Publication: [bioRxiv: A germline shortcut in protein language model retrieval of adaptive immune receptors](https://www.biorxiv.org/content/10.64898/2026.07.21.739963v1)
 * [2026] Publication: [Trends in Molecular Medicine: Stratification of immunotherapy responses by adaptive immune receptor repertoires](https://doi.org/10.1016/j.molmed.2025.12.007)
 * [2025] Publication: [bioRxiv: Accurate and scalable multi-disease classification from adaptive immune repertoires](https://doi.org/10.1101/2025.08.12.669991)
