@@ -109,3 +109,16 @@ html {
     color: $text-color;
   }
 }
+
+/* MentorCruise profile widget: keep it small */
+.mentorcruise-widget {
+  display: inline-block;
+  margin: 0.25em 0 1em;
+
+  img {
+    display: block;
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+  }
+}

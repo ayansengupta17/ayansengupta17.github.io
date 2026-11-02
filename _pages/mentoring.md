@@ -12,7 +12,7 @@ Mentoring
 ------------
 I am a mentor at [MentorCruise](https://mentorcruise.com/mentor/ayansengupta/), where I work with engineers and founders on machine learning, large language models, MLOps, and building AI products from research to production. If you are interested in getting mentored, feel free to reach out.
 
-[![MentorCruise Widget](https://mentorcruise.com/mentor/ayansengupta/widget/)](https://mentorcruise.com/mentor/ayansengupta/)
+<a class="mentorcruise-widget" href="https://mentorcruise.com/mentor/ayansengupta/" rel="noopener"><img src="https://mentorcruise.com/mentor/ayansengupta/widget/" alt="Ayan Sengupta on MentorCruise" loading="lazy"></a>
 
 {% include testimonials.html %}
 
