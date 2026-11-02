@@ -1,8 +1,9 @@
 ---
-title: "Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)<br><br><img src='/images/project-3/images/teaser.jpg'>"
+title: "Algorithms for Fast Computation of Exact Solution of Partial Differential Equation(s)"
 excerpt: "Exact Solution of Partial Differential Equation(s) can be computed by the theory of Oberst-Riquier algorithms"
 header:
-  image: project-3/images/header.jpg
+  teaser: /images/project-3/images/teaser.jpg
+  image: /images/project-3/images/header.jpg
 collection: projects
 author_profile: true
 ---

@@ -1,8 +1,9 @@
 ---
-title: "Agent Merchant: Supply Chain Management League (ANAC 2020) <br/><br/><img src='/images/project-0x/images/header.png'>"
+title: "Agent Merchant: Supply Chain Management League (ANAC 2020)"
 excerpt: "Design and build an autonomous agent that negotiates on behalf of a factory manager situated in a supply chain management simulation."
 header:
-  image: project-0x/images/anac2020-logo.png
+  teaser: /images/project-0x/images/header.png
+  image: /images/project-0x/images/anac2020-logo.png
 collection: projects
 ---
 

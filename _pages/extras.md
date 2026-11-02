@@ -2,7 +2,7 @@
 title: "Other Works"
 permalink: /extras/
 header:
-  image: extras_header.jpg
+  image: /images/extras_header.jpg
 author_profile: true
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: "Designing Linear Controller for Balancing of an Inverted Pendulum<br> <br><img src='/images/project-6/teaser.jpg'>"
+title: "Designing Linear Controller for Balancing of an Inverted Pendulum"
 excerpt: "In this project, a LQR controller was designed to balance the inverted
  pendulum using Arduino Mega and MATLAB."
 header:
-  image: project-6/header.jpg
+  teaser: /images/project-6/teaser.jpg
+  image: /images/project-6/header.jpg
 collection: projects
 ---
 

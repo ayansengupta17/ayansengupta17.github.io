@@ -1,176 +1,120 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site settings for ayansengupta17.github.io
+# Theme: Minimal Mistakes (remote), docs at https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
+remote_theme             : "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
-#extra
-theme                    : jekyll-theme-minimal
-
-
-
-# Site Settings
 locale                   : "en-US"
 title                    : "Ayan Sengupta"
 title_separator          : "-"
-name                     : &name "Ayan Sengupta"
-description              : &description "Ayan Sengupta - Co-Founder & CEO of MyImmune, AI for immunology, diagnostics and antibody discovery"
+subtitle                 : "Co-Founder & CEO, MyImmune"
+name                     : "Ayan Sengupta"
+description              : "Ayan Sengupta - Co-Founder & CEO of MyImmune. AI for immunology, diagnostics and antibody discovery."
 url                      : "https://ayansengupta17.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-gh_repo                  : "ayansengupta17.github.io"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 160
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+baseurl                  : ""
+repository               : "ayansengupta17/ayansengupta17.github.io"
+teaser                   : # fallback teaser image, e.g. "/images/500x300.png"
+logo                     :
+masthead_title           :
+breadcrumbs              : false
+words_per_minute         : 200
+enable_copy_code_button  : true
+search                   : true
+search_full_content      : true
 
-# SEO Related
+comments:
+  provider               : false
+
+atom_feed:
+  path                   :
+  hide                   : true
+
+# SEO
 google_site_verification :
 bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
 
-# Social Sharing
+# Social sharing
 twitter:
   username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+og_image                 : "/images/me.jpg"
+og_image_alt             : "Portrait of Ayan Sengupta"
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Ayan Sengupta"
+  links:
+    - "https://www.linkedin.com/in/ayansengupta17/"
+    - "https://github.com/ayansengupta17"
+    - "https://scholar.google.com/citations?user=llfoyOIAAAAJ"
+    - "https://www.myimmune.ai/"
 
-# Analytics
+# Analytics (GA4). The old Universal Analytics ID UA-136087327-2 stopped collecting data in July 2023.
 analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"
   google:
-    # GA4 Measurement ID, looks like G-XXXXXXXXXX (Google Analytics > Admin > Data Streams > your web stream).
-    # The old Universal Analytics ID UA-136087327-2 stopped collecting data in July 2023.
-    # Leave empty to disable tracking.
-    tracking_id          : G-J2MQNKHSKE
+    tracking_id          : "G-J2MQNKHSKE"
+    anonymize_ip         : false
 
-# Google AdSense
-google_ad_client         :
-google_ad_slot           :
-
-
-# Site Author
+# Site author (sidebar)
 author:
   name             : "Ayan Sengupta"
-  avatar           : "me.jpg"
-  bio              : "Co-Founder & CEO MyImmune | Tokyo | IIT Bombay | Top Mentor @ Mentorcruise"
+  avatar           : "/images/me.jpg"
+  bio              : "Co-Founder & CEO of MyImmune. AI for immunology, diagnostics and antibody discovery."
   location         : "Tokyo, Japan"
   email            : "ayan.sengupta@myimmune.ai"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : "ayansengupta17"
-  foursquare       :
-  github           : "ayansengupta17"
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "ayan-sengupta-b84b0b112"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "ayansengupta17"
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
+  links:
+    - label: "MyImmune"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.myimmune.ai/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ayansengupta17/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=llfoyOIAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ayansengupta17"
+    - label: "MentorCruise"
+      icon: "fas fa-fw fa-chalkboard-user"
+      url: "https://mentorcruise.com/mentor/ayansengupta/"
 
-defaults:
-  # _posts
-  - scope:
-      #path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+# Site footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ayansengupta17/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ayansengupta17"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=llfoyOIAAAAJ"
 
-      classes: wide
-
-  - scope:
-      path: "_projects"
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-
-# Reading Files
-
+# Reading files
 include:
-  - .htaccess
   - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
   - vendor
   - .bundle
+  - .asset-cache
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package.json
+  - SECURITY.md
+  - log
+  - node_modules
+  - tmp
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -179,10 +123,6 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -193,75 +133,66 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Tokyo
+
 # Collections
 collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  hobbies:
-    output: true
-    permalink: /:collection/:path/
 
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+# Plugins (whitelisted by GitHub Pages)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-remote-theme
   - jemoji
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-remote-theme
   - jemoji
 
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      classes: wide

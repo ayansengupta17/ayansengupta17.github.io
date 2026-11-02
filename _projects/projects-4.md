@@ -1,9 +1,10 @@
 ---
-title: "Toxic Comment Classification into red, yellow and green zones<br> <br><img src='/images/project-4/images/teaser.jpg'>"
+title: "Toxic Comment Classification into red, yellow and green zones"
 excerpt: "In this project, deep learning method involving Bidirectional LSTM is used for the model for classifying toxic comments.
 The same has been deployed as a web app on Heroku using Flask framework and an API has been created for it. "
 header:
-  image: project-4/header.gif
+  teaser: /images/project-4/images/teaser.jpg
+  image: /images/project-4/header.gif
 collection: projects
 author_profile: true
 ---

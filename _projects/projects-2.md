@@ -1,9 +1,10 @@
 ---
-title: "Extracting Water Resources From Satellite Images <br> <br><img src='/images/project-2/images/teaser.jpg'>"
+title: "Extracting Water Resources From Satellite Images"
 excerpt: "In this project, a Convolution Neural Network (CNN) was trained to detect
-water bodies in satellite images which produced promising result. <br/><img src='/images/header.jpg'>"
+water bodies in satellite images which produced promising result."
 header:
-  image: project-2/images/header.jpg
+  teaser: /images/project-2/images/teaser.jpg
+  image: /images/project-2/images/header.jpg
 collection: projects
 author_profile: true
 ---

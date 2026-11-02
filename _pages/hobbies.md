@@ -2,7 +2,7 @@
 title: "Hobbies"
 permalink: /hobbies/
 header:
-  image: hobbies/wallpaper.jpg
+  image: /images/hobbies/wallpaper.jpg
 author_profile: true
 ---
 # 2019

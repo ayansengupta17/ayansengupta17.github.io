@@ -1,9 +1,10 @@
 ---
-title: "Classification of Poker Hands using Artificial Neural Network<br> <br><img src='/images/project-5/images/teaser.jpg'>"
+title: "Classification of Poker Hands using Artificial Neural Network"
 excerpt: "In this project, an Artificial Neural Network was designed
 from scratch in Python for classifying poker hands."
 header:
-  image: project-5/images/header.jpg
+  teaser: /images/project-5/images/teaser.jpg
+  image: /images/project-5/images/header.jpg
 collection: projects
 author_profile: true
 ---

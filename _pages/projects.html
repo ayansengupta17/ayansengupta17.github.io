@@ -3,13 +3,14 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+entries_layout: grid
+classes: wide
 ---
 
-{% include base_path %}
-
-
+<div class="entries-grid">
 {% for post in site.projects %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
+</div>
 
-<p>Smaller scripts, workshops, and web work are collected under <a href="/extras/">Other Works</a>.</p>
+<p style="clear: both; padding-top: 1em;">Smaller scripts, workshops, and web work are collected under <a href="/extras/">Other Works</a>.</p>

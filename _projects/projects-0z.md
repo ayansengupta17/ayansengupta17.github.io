@@ -1,8 +1,9 @@
 ---
-title: "Reinforcement Learning Based Autonomous Negotiating Agent Framework (AAMAS 2021) <br/><br/><img src='/images/project-0z/images/neg.png'>"
+title: "Reinforcement Learning Based Autonomous Negotiating Agent Framework (AAMAS 2021)"
 excerpt: "An Autonomous Negotiating Agent Framework with Reinforcement Learning Based Strategies and Adaptive Strategy Switching Mechanism"
 header:
-  image: project-0z/images/header.png
+  teaser: /images/project-0z/images/neg.png
+  image: /images/project-0z/images/header.png
 collection: projects
 ---
 

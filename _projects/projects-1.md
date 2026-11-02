@@ -1,9 +1,10 @@
 ---
-title: "Text to image generation Using Deep Convolution Generative Adversarial Networks (DCGANs) <br/><br/><img src='/images/project-1/images/implementation.png'>"
+title: "Text to image generation Using Deep Convolution Generative Adversarial Networks (DCGANs)"
 excerpt: "In this project we tried to generate realistic images from text descriptions.
 "
 header:
-  image: project-1/images/header.png
+  teaser: /images/project-1/images/implementation.png
+  image: /images/project-1/images/header.png
 collection: projects
 ---
 

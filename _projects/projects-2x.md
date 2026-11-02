@@ -1,8 +1,9 @@
 ---
-title: " Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems (SIAM-PD19)<br><br><img src='/images/project-2x/images/rod.png'>"
+title: "Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems (SIAM-PD19)"
 excerpt: "Oberst-Riquier Based Generalised Algorithm for Open-Loop Trajectory Generation of Infinite-Dimensional Systems"
 header:
-  image: project-2x/images/header.png
+  teaser: /images/project-2x/images/rod.png
+  image: /images/project-2x/images/header.png
 collection: projects
 author_profile: true
 ---
