@@ -4,6 +4,8 @@ title: "About me"
 excerpt: "About me"
 ---
 
+I am Ayan Sengupta, co-founder and CEO of [MyImmune](https://www.myimmune.ai/), where we teach machines to read the immune system. From a small blood sample we sequence a person's T-cell and B-cell receptors and use AI to turn that repertoire into earlier diagnoses, better predictions of who will respond to a therapy, and fully human antibodies discovered entirely in silico. I came to immunology by way of control theory at IIT Bombay, reinforcement learning research at NEC, and building AI products at Tokyo startups, and I still enjoy the moment when a hard biological question becomes a tractable machine learning problem. I live in Tokyo, mentor engineers and founders on [MentorCruise](https://mentorcruise.com/mentor/ayansengupta/), and you can reach me at [ayan.sengupta@myimmune.ai](mailto:ayan.sengupta@myimmune.ai).
+
 
 2024 - Present
 --------
