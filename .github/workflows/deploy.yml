@@ -5,6 +5,10 @@ on:
     branches: [master]
   workflow_dispatch:
 
+# The GITHUB_TOKEN only needs to read the repository; deployment uses CLOUDFLARE_API_TOKEN.
+permissions:
+  contents: read
+
 concurrency:
   group: deploy
   cancel-in-progress: true

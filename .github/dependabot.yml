@@ -1,0 +1,17 @@
+# Keep the build toolchain current. Deploys only happen from master, so these
+# PRs are safe to merge after the "Build and deploy" check passes on them.
+version: 2
+updates:
+  - package-ecosystem: bundler
+    directory: "/"
+    schedule:
+      interval: monthly
+    groups:
+      jekyll:
+        patterns: ["*"]
+    labels: ["dependencies"]
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    labels: ["dependencies"]
