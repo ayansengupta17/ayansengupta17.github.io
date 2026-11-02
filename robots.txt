@@ -1,0 +1,5 @@
+# robots.txt for ayansengupta.dev (RFC 9309)
+User-agent: *
+Allow: /
+
+Sitemap: https://ayansengupta.dev/sitemap.xml
