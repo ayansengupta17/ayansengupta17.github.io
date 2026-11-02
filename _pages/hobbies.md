@@ -6,6 +6,14 @@ header:
 author_profile: true
 excerpt: "Outside work: photography, design, and the student magazine Ayan Sengupta edited and designed."
 ---
+# 2022
+<br>
+## Click! Japan Photo Contest
+<br>
+<a href="https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html" rel="noopener"><img src="/images/hobbies/autumn-vibes-yamadera.jpg" width="480" alt="Autumn Vibes: Yamadera, a photograph of the Yamadera mountain temple in autumn colours"></a>
+
+"Autumn Vibes: Yamadera" placed in the top three of the Click! Japan Photo Contest 2021-2022, the online photo exhibition run by the [Embassy of Japan in India](https://www.in.emb-japan.go.jp/itpr_ja/Online.Photo.Exhibition2021_2022.html).
+
 # 2019
 <br>
 ## Poster
