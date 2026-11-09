@@ -45,25 +45,13 @@
     "name": "{{ site.author.name }}",
     "url": "{{ site.url }}/",
     "sameAs": "{{ s.profile_url }}"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "{{ s.rating }}",
-    "bestRating": "5",
-    "ratingCount": "{{ s.count }}"
-  },
-  "review": [
-    {%- for r in t.reviews %}
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": {{ r.name | jsonify }} },
-      {%- if r.date %}
-      "datePublished": "{{ r.date | date: '%Y-%m-%d' }}",
-      {%- endif %}
-      "reviewRating": { "@type": "Rating", "ratingValue": "{{ r.rating }}", "bestRating": "5" },
-      "reviewBody": {{ r.quote | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
-    {%- endfor %}
-  ]
+  }
 }
 </script>
+{%- comment -%}
+No aggregateRating or review here on purpose. Google only accepts review markup on a
+fixed list of parent types (Product, Organization, Course, ...), and Service is not one,
+so Search Console reports "Invalid object type for field <parent_node>". The ratings
+also come from MentorCruise, and Google's review guidelines rule out ratings collected
+on another site, so switching the parent type would not make them eligible.
+{%- endcomment -%}
